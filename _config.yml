@@ -24,13 +24,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   A personal website to write a blog, post about recipes and discover Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  jcking97
-goodreads:
-  link: 49647734-james-king
-  name: James King
-linkedin:
-  link: james-king-28a154146
-  name: James King
+media:
+  - site: GitHub
+    link: https://www.github.com/jcking97
+    name: jcking97
+    icon: assets/img/GitHub-Mark-16px.png
+  - site: Goodreads
+    link: https://www.goodreads.com/user/show/49647734-james-king
+    name: James King
+    icon: assets/img/goodreads_icon_16px.png
+  - site: LinkedIn
+    link: https://www.linkedin.com/in/james-king-28a154146/
+    name: James King
+    icon: assets/img/linked_in_icon_16px.png
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # Build settings
 theme: minima
@@ -56,3 +68,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ site.title | escape }} - {{ page.title | escape }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ 'assets/css/default.css' | relative_url }}">
+        {%- if page.styles -%}
+        {%- for stylesheet in page.styles -%}
+        <link rel="stylesheet" type="text/css" href="{{ stylesheet | relative_url }}">
+        {%- endfor -%}
+        {%- endif -%}
+    </head>
+
+    <body>
+
+        <div id="header">
+            <div id="header-text">
+                <div id="name-header">
+                    <h1>{{ site.title | escape }}</h1>
+                </div>
+                <div id="short-intro">
+                    <!--- Short intro text is set by intro-text.js --->
+                    <p id="short-intro-text">
+                        <script src="{{ 'assets/scripts/intro-text.js' | relative_url }}"></script>
+                    </p>
+                </div>
+            </div>
+            <div id="header-img-container">
+                <img id="header-img" src="{{ 'assets/img/fife.jpg' | relative_url }}" alt="Scenery in Fife, Scotland" />
+            </div>
+        </div>
+        <div id="navbar">
+            <ul>
+                {% assign sorted_pages = site.pages | sort:"order" %}
+                {%- for sorted_page in sorted_pages -%}
+                {%- if sorted_page.title -%}
+                <li><a href="{{ sorted_page.url | relative_url }}#navbar">{{ sorted_page.title | escape }}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+        
+
+        <main>
+        <div id="page-content">
+            {{ content }}
+        </div>
+        </main>
+
+        <div class="footer">
+            {%- for media_site in site.media -%}
+            <a href="{{ media_site.link }}" class="media-link"><img src="{{ media_site.icon | relative_url }}" alt="{{ media_site.site }} -"> {{ media_site.name }}</a>
+            {% endfor -%}
+        </div>
+
+    </body>
+
+</html>
