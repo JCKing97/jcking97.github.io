@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ site.title | escape }} - {{ page.title | escape }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ 'assets/css/new_default.css' | relative_url }}">
+        <script type="text/javascript" src="{{ 'assets/scripts/headerCanvasScript.js' | relative_url }}"></script>
+        {%- if page.styles -%}
+        {%- for stylesheet in page.styles -%}
+        <link rel="stylesheet" type="text/css" href="{{ stylesheet | relative_url }}">
+        {%- endfor -%}
+        {%- endif -%}
+    </head>
+
+    <body onresize="draw()" onload="draw()">
+
+        <canvas id="headerCanvas" width="100%"></canvas>
+
+        <h1 id="pageTitle">{{ page.title | escape }}</h1>
+        <hr id="titleUnderline" />
+
+        <div id="content">
+            {{ content }}
+        </div>
+        
+    </body>
+</html>
