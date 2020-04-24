@@ -15,10 +15,12 @@
 
     <body onresize="draw()" onload="draw()">
 
-        <canvas id="headerCanvas" width="100%"></canvas>
+        <div id="header">
+            <canvas id="headerCanvas" width="100%"></canvas>
 
-        <h1 id="pageTitle">{{ page.title | escape }}</h1>
-        <hr id="titleUnderline" />
+            <h1 id="pageTitle">{{ page.title | escape }}</h1>
+            <hr id="titleUnderline" />
+        </div>
 
         <div id="content">
             {{ content }}
