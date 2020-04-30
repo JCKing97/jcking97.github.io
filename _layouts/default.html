@@ -37,7 +37,9 @@
                 {% assign sorted_pages = site.pages | sort:"order" %}
                 {%- for sorted_page in sorted_pages -%}
                 {%- if sorted_page.title -%}
+                {%- unless sorted_page.title == "jcking97.github.io" -%}
                 <li><a href="{{ sorted_page.url | relative_url }}#navbar">{{ sorted_page.title | escape }}</a></li>
+                {%- endunless -%}
                 {%- endif -%}
                 {%- endfor -%}
             </ul>
