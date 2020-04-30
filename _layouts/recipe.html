@@ -6,6 +6,7 @@ layout: default
 <hr class="title-underline" />
 
 <div class="para">
+    <p>Serves: {{ page.serves }}</p>
     {{ content }}
     <p class="tags">
         Tags: {% for tag in page.tags -%}{{ tag }} {% endfor -%}

@@ -27,7 +27,6 @@ description: "Similar recipes comes up across many east asian cuisines. This is 
 
 {% include ingredients.html %}
 
-
 ## Process
 
 1. If uncooked grill the cashews/peanuts (be careful they don't burn they don't take long!)
