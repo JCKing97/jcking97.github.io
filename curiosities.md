@@ -1,5 +1,5 @@
 ---
-layout: new_default
+layout: page
 title: Curiosities
 permalink: /curiosities
 order: 2
