@@ -1,5 +1,5 @@
 ---
-layout: new_default
+layout: page
 title: Recipes
 permalink: /recipes
 order: 3
