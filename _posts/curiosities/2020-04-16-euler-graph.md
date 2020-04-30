@@ -6,7 +6,15 @@ tags: ["Graph Theory", "Linked", "Book", "Barabási"]
 excerpt_separator: <!-- more -->
 ---
 
-I have recently been reading Linked by Albert-László Barabási which has reignited my interested in Graph Theory and Network Science. So I thought I'd give a basic introduction to Graph Theory by describing the problem and mathematician's brilliance that led to the field. This question posed in this problem is: in the historical city of Königsberg, when there were just 7 bridges, was it possible to devise a walk such that you crossed all bridges once and only once (also known a an Eulerian path).
+
+<div class="row">
+    <div class="col">
+        <img src="{{ 'assets/img/koenigsberg_bridges.gif' | relative_url }}" alt="Seven Bridges of Königsberg" style="width: 70%;"/>
+    </div>
+    <div class="col">
+        I have recently been reading Linked by Albert-László Barabási which has reignited my interested in Graph Theory and Network Science. So I thought I'd give a basic introduction to Graph Theory by describing the problem and mathematician's brilliance that led to the field. This question posed in this problem is: in the historical city of Königsberg, when there were just 7 bridges, was it possible to devise a walk such that you crossed all bridges once and only once (also known a an Eulerian path).
+    </div>
+</div> 
 
 <!-- more -->
 

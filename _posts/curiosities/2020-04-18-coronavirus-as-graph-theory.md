@@ -16,8 +16,6 @@ I previously took an interest in Network Science during the Algorithms and Compl
 
 Network science was born with the legendary mathemtician Leonhard Euler solving the Seven Bridges of Königsberg problem by modelling the problem with distinct pieces of land as nodes and the bridges as links. <!-- find a picture --> Nodes and links are the most fundamental ideas of graph theory and can represent many concepts making the theory an incredibly powerful tool for describing and analysing problems.
 
-!["Seven Bridges of Königsberg]({{ 'assets/img/koenigsberg_bridges.gif' | relative_url }})
-
 <!-- talk about the seven bridges shortly -->
 
 ### Modelling the Spread of Coronavirus

@@ -1,0 +1,15 @@
+<h2>Ingredients</h2>
+
+<ul>
+    {%- for ingredient in page.ingredients -%}
+    <li>{{ ingredient }}</li>
+    {%- endfor -%}
+</ul>
+
+<h2>Suggested Ingredients</h2>
+
+<ul>
+    {%- for ingredient in page.suggested_ingredients -%}
+    <li>{{ ingredient }}</li>
+    {%- endfor -%}
+</ul>

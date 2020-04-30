@@ -96,6 +96,32 @@ html, body {
     margin-bottom: 20px;
 }
 
+/* tables */
+
+.row {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%;
+    text-align: center;
+}
+.col {
+    display: inline-block;
+    flex-basis: 45%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+.col img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .col {
+        flex-basis: 100%;
+    }
+}
+
 /* Footer */
 
 .footer {

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1 class="page-title">{{ page.title | escape }}</h1>
+<hr class="title-underline" />
+
+<div class="para">
+    {{ content }}
+    <p class="tags">
+        Tags: {% for tag in page.tags -%}{{ tag }} {% endfor -%}
+    </p>
+</div>
