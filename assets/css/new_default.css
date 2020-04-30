@@ -9,9 +9,6 @@ html, body {
 
 /* Header Styling */
 
-#header {
-    margin: 5px;
-}
 #headerCanvas {
     margin: auto;
     display: block;

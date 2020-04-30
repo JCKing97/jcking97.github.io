@@ -1,6 +1,6 @@
 ---
 layout: new_default
-title: Home
+title: New Home
 permalink: /new_index
 order: 1
 ---
