@@ -6,8 +6,25 @@ layout: default
 <hr class="title-underline" />
 
 <div class="para">
+    {{ page.excerpt }}
     <p>Serves: {{ page.serves }}</p>
-    {{ content }}
+    <h2>Ingredients</h2>
+
+    <ul>
+        {%- for ingredient in page.ingredients -%}
+        <li>{{ ingredient }}</li>
+        {%- endfor -%}
+    </ul>
+
+    <h2>Suggested Ingredients</h2>
+
+    <ul>
+        {%- for ingredient in page.suggested_ingredients -%}
+        <li>{{ ingredient }}</li>
+        {%- endfor -%}
+    </ul>
+
+    {{ page.content | split: "<!-- more -->" | last }}
     <p class="tags">
         Tags: {% for tag in page.tags -%}{{ tag }} {% endfor -%}
     </p>

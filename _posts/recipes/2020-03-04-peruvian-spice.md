@@ -16,8 +16,6 @@ This spice mix comes straight out of peru with the earthiness of cumin, the heat
 
 <!-- more -->
 
-{% include ingredients.html %}
-
 With this recipe we'll make the spice mix first and then I'll give you a couple of suggested uses.
 
 ## Process
