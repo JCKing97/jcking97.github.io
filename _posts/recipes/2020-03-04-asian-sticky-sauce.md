@@ -15,7 +15,7 @@ description: "Similar recipes comes up across many east asian cuisines. This is 
 
 <div class="row">
     <div class="col">
-        <img src="{{ 'assets/img/asian-sticky-sauce.jpg' | relative_url }}" alt="Asian Sticky Sauce" style="width: 70%;"/>
+        <img src="{{ 'assets/img/asian-sticky-sauce.jpg' | relative_url }}" alt="Asian Sticky Sauce" style="width: 50%;"/>
     </div>
     <div class="col">
         Similar recipes comes up across many east asian cuisines. This is a dark rich sauce that is best complimented with lighter ingredients. My favourite way to use the recipe is to stick it to vegetarian chicken alternatives and serve on a bed of rice with steamed broccoli and other veg.

@@ -101,25 +101,21 @@ html, body {
 .row {
     display: flex; 
     flex-wrap: wrap; 
-    width: 100%;
+    max-width: 100%;
+    flex: 2;
     text-align: center;
+    justify-content: center;
 }
 .col {
     display: inline-block;
-    flex-basis: 45%;
     text-align: center;
     vertical-align: middle;
     margin: auto;
+    padding: 5px;
 }
 .col img {
+    display: inline-block;
     max-width: 100%;
-}
-
-
-@media screen and (max-width: 1000px) {
-    .col {
-        flex-basis: 100%;
-    }
 }
 
 /* Footer */
