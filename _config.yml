@@ -37,6 +37,11 @@ media:
     link: https://www.linkedin.com/in/james-king-28a154146/
     name: James King
     icon: assets/img/linked_in_icon_16px.png
+  - site: Instagram
+    link: https://www.instagram.com/just_a_regular_john/
+    name: just_a_regular_john
+    icon: assets/img/instagram_icon_16px.png
+
 
 defaults:
   - scope:
