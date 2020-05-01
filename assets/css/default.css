@@ -100,22 +100,28 @@ html, body {
 
 .row {
     display: flex; 
-    flex-wrap: wrap; 
-    max-width: 100%;
-    flex: 2;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    vertical-align: middle;
 }
 .col {
-    display: inline-block;
-    text-align: center;
+    flex-basis: 48%;
+    flex-grow: 1;
+    justify-content: center;
     vertical-align: middle;
-    margin: auto;
     padding: 5px;
+    height: inherit;
+    margin: auto;
 }
 .col img {
-    display: inline-block;
     max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .col {
+        flex-grow: 2;
+    }
 }
 
 /* Footer */
