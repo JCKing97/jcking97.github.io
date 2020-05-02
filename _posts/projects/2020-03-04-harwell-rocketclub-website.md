@@ -10,4 +10,4 @@ A group in the same graduate scheme as me in the Science and Technology Faciliti
 
 <!-- more -->
 
-<img src="{{ 'assets/img/harwellrocketclubwebsite.png' | relative_url }}" alt="harwellrocketclub.com website image" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="{{ 'assets/img/harwellrocketclubwebsite.png' | relative_url }}" alt="harwellrocketclub.com website image" style="display: block; margin-left: auto; margin-right: auto; max-width: 100%;"/>
