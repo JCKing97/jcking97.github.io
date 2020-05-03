@@ -21,10 +21,10 @@ The first step was to create the game itself. We wanted to keep it as simple and
 
 To install and run the game see the instructions on the GitHub hosted repository: <a href="https://github.com/autonomy-lab/Agents4Asteroids">Agents4Asteroids</a>.
 
-Currently, we only have the capability for the user to control the ship, but the sofware has been built with the idea of adding an agent. We are, at the moment, working on building the infrastructure for an agent to play such as percepts, actions and agent control of the ship.
+Currently, there are 3 types of agents: UserAgent (A keyboard controlled agent), DumbAgent (Spins around and shoots) and ReactiveAgent (Calculates the nearest asteroid, turns towards it and shoots). The aim is to now add more interesting agent strategies such as reinforcement learning agents and more reactive agents, and different perceptions (maybe try and force the agent to use object detection in an image to recognise asteroids).
 
-The aim is to build the system so we can add different forms of percepts and various agent strategies to play the game. Once we have reached this point the developing of agent strategies to play the game begins. We are hoping to try out some basic reactive strategies, reinforcement learning strategies and a few others.
+I am also aiming to implement some features to make the game more interesting such as limiting firing speed.
 
-Future ideas include having multiple agents play the game together. These agents will use communication protocols to coordinate their actions in order to enhance both the team and their individual points score
+Future ideas include having multiple agents play the game together. These agents will use communication protocols to coordinate their actions in order to enhance both the team and their individual points score. These agents could compete in a competition like scenario to find the best strategy.
 
 <img src="{{ 'assets/img/asteroids_splash_screen.png' | relative_url }}" alt="Game menu screen" style="max-width: 40%; display: block; margin-left: auto; margin-right: auto;" />
