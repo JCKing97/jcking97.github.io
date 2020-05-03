@@ -8,7 +8,7 @@ excerpt_separator: <!-- more -->
 
 <div class="row">
     <div class="col">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rkac55SBIco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="320" src="https://www.youtube.com/embed/Rkac55SBIco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col">
         My final year project at university focused on the agent-based systems side of AI. Me and my friend Fabio who was on a similar course to me at Royal Holloway wanted a platform to experiment with some AI concepts and ideas. So we created the <a href="https://github.com/autonomy-lab">autonomy-lab</a>. As a first project we wanted to develop a game where agents had to deliberate and act in a dynamic situation bound to some physical laws. The game Asteroids seemed a suitable target.
