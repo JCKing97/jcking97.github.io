@@ -8,7 +8,7 @@ excerpt_separator: <!-- more -->
 
 <div class="row">
     <div class="col">
-        <img src="{{ 'assets/img/asteroids_in_game.png' | relative_url }}" alt="Ship fighting for life against asteroids" style="max-width: 50%;" />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rkac55SBIco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col">
         My final year project at university focused on the agent-based systems side of AI. Me and my friend Fabio who was on a similar course to me at Royal Holloway wanted a platform to experiment with some AI concepts and ideas. So we created the <a href="https://github.com/autonomy-lab">autonomy-lab</a>. As a first project we wanted to develop a game where agents had to deliberate and act in a dynamic situation bound to some physical laws. The game Asteroids seemed a suitable target.
@@ -22,6 +22,8 @@ The first step was to create the game itself. We wanted to keep it as simple and
 To install and run the game see the instructions on the GitHub hosted repository: <a href="https://github.com/autonomy-lab/Agents4Asteroids">Agents4Asteroids</a>.
 
 Currently, there are 3 types of agents: UserAgent (A keyboard controlled agent), DumbAgent (Spins around and shoots) and ReactiveAgent (Calculates the nearest asteroid, turns towards it and shoots). The aim is to now add more interesting agent strategies such as reinforcement learning agents and more reactive agents, and different perceptions (maybe try and force the agent to use object detection in an image to recognise asteroids).
+
+
 
 I am also aiming to implement some features to make the game more interesting such as limiting firing speed.
 

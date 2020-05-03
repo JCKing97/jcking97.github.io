@@ -8,7 +8,7 @@ excerpt_separator: <!-- more -->
 
 <div class="row">
     <div class="col">
-        <iframe width="100%" height="320" src="https://www.youtube.com/embed?listType=playlist&list=PLB6GUkvgEZm5_Wf1jkGdwDPxiJeSb6wyw"></iframe><br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=playlist&list=PLB6GUkvgEZm5_Wf1jkGdwDPxiJeSb6wyw"></iframe><br />
         These videos are all from the Harwell Rocket Club, but are of the Red Kite project team.
     </div>
     <div class="col">
