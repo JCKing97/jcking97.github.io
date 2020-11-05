@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.link > a {
+    text-decoration: none;
+    color: white;
+}
+
+.link > a:hover {
+    text-decoration: underline;
+}
