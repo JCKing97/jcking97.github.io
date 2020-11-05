@@ -11,6 +11,15 @@ body {
     transform: translate(-50%, -50%);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .title {
     text-align: center;
     font-size: 50px;
@@ -20,6 +29,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    float: right;
 }
 
 .link {
@@ -28,11 +38,17 @@ body {
     font-size: 20px;
 }
 
-.link > a {
-    text-decoration: none;
-    color: white;
+.header { 
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.link > a:hover {
-    text-decoration: underline;
+.header > div {
+    width: 50%;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 40px;
 }

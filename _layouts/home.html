@@ -3,18 +3,22 @@ title: Home
 layout: default
 ---
 
-<div class="home">
-    <h1 class="title">James King</h1>
-    <div class="links">
-        <div class="link">
-            <a href="/career.html">Career</a>
-        </div>
-        <div class="link">
-            <a href="/blog.html">Blog</a>
-        </div>
-        <div class="link">
-            <a href="/projects.html">Projects</a></div>
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="home">
+            <h1 class="title">James King</h1>
+            <div class="links">
+                <div class="link">
+                    <a href="/career.html">Career</a>
+                </div>
+                <div class="link">
+                    <a href="/blog.html">Blog</a>
+                </div>
+                <div class="link">
+                    <a href="/projects.html">Projects</a>
+                </div>
+            </div>
+            {{ content }}
         </div>
     </div>
-    {{ content }}
-</div>
+</main>
