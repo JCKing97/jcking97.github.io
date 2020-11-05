@@ -53,3 +53,15 @@ a:hover {
     text-align: center;
     font-size: 40px;
 }
+
+.post-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
