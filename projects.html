@@ -6,7 +6,11 @@ title: Projects
 {% for post in site.posts %}
     {% if post.category == "Projects" %}
         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            {% if post.alt_url == "" %}
+                <a href="{{ post.alt_url }}">{{ post.title }}</a>
+            {% else %}
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            {% endif %}
         </li>
     {% endif %}
 {% endfor %}
