@@ -40,7 +40,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[50.713408848141235,-0.9904655011470678],[51.15978159739322,0.00801136733650935]]);
+        }).fitBounds([[50.81217007296274,-1.9213453649322496],[51.64132445469216,1.0168751669431901]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -134,13 +134,13 @@
             return {
                 pane: 'pane_Counties_0',
                 opacity: 1,
-                color: 'rgba(53,121,177,1.0)',
+                color: 'rgba(69,101,46,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
                 weight: 1.0,
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_Counties_0');
@@ -148,7 +148,7 @@
         map.getPane('pane_Counties_0').style['mix-blend-mode'] = 'normal';
         var layer_Counties_0 = new L.geoJson(json_Counties_0, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Counties_0',
             layerName: 'layer_Counties_0',
             pane: 'pane_Counties_0',
@@ -160,10 +160,13 @@
         function pop_Locations_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Name'] !== null ? autolinker.link(String(feature.properties['Name']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Name" colspan="2"><strong>Name</strong><br />' + (feature.properties['Name'] !== null ? autolinker.link(String(feature.properties['Name']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Descriptio'] !== null ? autolinker.link(String(feature.properties['Descriptio']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Descriptio" colspan="2"><strong>Descriptio</strong><br />' + (feature.properties['Descriptio'] !== null ? autolinker.link(String(feature.properties['Descriptio']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Habitat'] !== null ? autolinker.link(String(feature.properties['Habitat']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -173,12 +176,14 @@
 			layer.bindPopup(content, { maxHeight: 400 });
         }
 
-        function style_Locations_1_0() {
-            return {
+        function style_Locations_1_0(feature) {
+            switch(String(feature.properties['Habitat'])) {
+                case 'Woodland':
+                    return {
                 pane: 'pane_Locations_1',
-                radius: 4.0,
+                radius: 8.0,
                 opacity: 1,
-                color: 'rgba(0,0,0,1.0)',
+                color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -187,6 +192,56 @@
                 fillOpacity: 1,
                 fillColor: 'rgba(97,142,64,1.0)',
                 interactive: true,
+            }
+                    break;
+                case 'Wetland':
+                    return {
+                pane: 'pane_Locations_1',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(31,120,180,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Heathland':
+                    return {
+                pane: 'pane_Locations_1',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(229,182,54,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'Meadow':
+                    return {
+                pane: 'pane_Locations_1',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(242,12,216,1.0)',
+                interactive: true,
+            }
+                    break;
             }
         }
         map.createPane('pane_Locations_1');
@@ -216,7 +271,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #618e40; font-size: 10pt; font-family: \'Open Sans\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Locations_1'});
+            layer.bindTooltip((layer.feature.properties['Name'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Open Sans\', sans-serif;">' + layer.feature.properties['Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Locations_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
