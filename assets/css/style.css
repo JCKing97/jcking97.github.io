@@ -76,6 +76,25 @@ hr {
     margin: 5%;
 }
 
+/* container */
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns > * {
+        width:50%;
+    }
+}
+
 /*
 Peachtree: #efb9a5
 Forest: #3c4b33
