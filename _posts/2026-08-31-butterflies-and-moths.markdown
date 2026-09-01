@@ -4,7 +4,7 @@ title: "Butterflies and Moths"
 img: DSC01722.JPG
 excerpt: "Butterflies and Moths"
 order: 2
-category: portfolio
+categories: portfolio
 date: 2026-08-31 15:48:21 +0000
 ---
 

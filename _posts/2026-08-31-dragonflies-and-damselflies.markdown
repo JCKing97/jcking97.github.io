@@ -11,7 +11,7 @@ excerpt: |
 
     There are 57 species of Odonata in the UK and this pictured is Emperor Dragonfly.
 order: 1
-category: portfolio
+categories: portfolio
 date: 2026-08-31 15:48:21 +0000
 ---
 

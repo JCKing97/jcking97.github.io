@@ -1,6 +1,6 @@
 {% assign sidebar_count = 0 %}
 {% for post in site.posts %}
-    {% if post.category == "portfolio" %}
+    {% if post.categories contains "portfolio" %}
         {% assign sidebar_count = sidebar_count | plus: 1 %}
         {% assign remainder = sidebar_count | modulo: 2 %}
         <a href="{{ post.url }}">
@@ -8,7 +8,7 @@
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h2 class="sidebar-title">{{ post.title }}</h2>
-                    <p class="sidebar-intro">{{ post.intro }}</p>
+                    <p class="sidebar-excerpt">{{ post.excerpt }}</p>
                 </div>
                 <div class="sidebar-entry">
                     <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
@@ -21,7 +21,7 @@
                 </div>
                 <div class="sidebar-entry">
                     <h2 class="sidebar-title">{{ post.title }}</h2>
-                    <p class="sidebar-intro">{{ post.intro }}</p>
+                    <p class="sidebar-excerpt">{{ post.excerpt }}</p>
                 </div>
             </div>
         {% endif %}
