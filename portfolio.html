@@ -3,9 +3,12 @@ layout: page
 title: Portfolio
 ---
 
+{% assign i = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
-        {% if forloop.index % 2 != 0 %}
+        {% assign i = i | plus:1 %}
+        {% capture modulo %}{{ i | mod:2 }}{% endcapture %}
+        {% if modulo != "0" %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
