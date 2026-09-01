@@ -142,6 +142,11 @@ a:focus .portfolio-excerpt {
 .portfolio-section {
     margin: 2rem 5%;
 }
+
+/* Make section a positioning context for overlayed nav */
+.portfolio-section {
+    position: relative;
+}
 .portfolio-intro {
     display: flex;
     align-items: center;
@@ -154,13 +159,37 @@ a:focus .portfolio-excerpt {
     gap: 0.5rem;
 }
 .portfolio-arrow {
-    background: rgba(0,0,0,0.25);
+    background: transparent;
     color: inherit;
-    border: 1px solid rgba(255,255,255,0.1);
-    padding: 0.5rem 0.75rem;
-    font-size: 1.25rem;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
     cursor: pointer;
     border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Overlay nav positioned over the carousel images */
+.portfolio-nav-overlay {
+    position: absolute;
+    inset: 0; /* top:0; right:0; bottom:0; left:0; */
+    pointer-events: none;
+}
+.portfolio-nav-overlay .portfolio-prev,
+.portfolio-nav-overlay .portfolio-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.15);
+    pointer-events: auto;
+}
+.portfolio-nav-overlay .portfolio-prev {
+    left: 0.5rem;
+}
+.portfolio-nav-overlay .portfolio-next {
+    right: 0.5rem;
 }
 .portfolio-carousel {
     display: flex;
@@ -232,3 +261,6 @@ a:focus .portfolio-excerpt,
     }
 }
 
+.portfolio-divider {
+    color:  #D4D5A5;
+}
