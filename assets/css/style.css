@@ -220,7 +220,7 @@ a:focus .sidebar-excerpt {
 
 @media (min-width: 768px) {
     .portfolio-item {
-        flex: 0 0 90%;
+        flex: 0 0 100%;
     }
 }
 

@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   next.addEventListener('click', function () {
-    var amount = Math.round(container.clientWidth * 0.8);
+    var amount = Math.round(container.clientWidth);
     scroll(amount);
   });
 
   prev.addEventListener('click', function () {
-    var amount = Math.round(container.clientWidth * 0.8);
+    var amount = Math.round(container.clientWidth);
     scroll(-amount);
   });
 
