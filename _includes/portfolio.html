@@ -1,31 +1,31 @@
 <div class="portfolio-section">
+    <div class="portfolio-intro">
+        <div class="portfolio-nav">
+            <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
+            <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
+        </div>
+    </div>
+
     <div id="portfolio-carousel" class="portfolio-carousel">
         {% for post in site.posts %}
             {% if post.categories contains "portfolio" %}
                 <div class="portfolio-item">
-                    <div class="portfolio-intro">
-                        {% if forloop.first %}
-                        {% include portfolio_intro.html %}
-                        {% endif %}
-                        <div class="portfolio-nav">
-                            <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
-                            <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <a href="{{ post.url }}" class="portfolio-image-link">
+                                <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                            </a>
+                        </div>
+                        <div class="portfolio-meta">
+                            {% if forloop.first %}
+                                {% include portfolio_intro.html %}
+                            {% endif %}
+                            <a href="{{ post.url }}" class="portfolio-link">
+                                <h2 class="portfolio-title">{{ post.title }}</h2>
+                                <p class="portfolio-excerpt">{{ post.excerpt }}</p>
+                            </a>
                         </div>
                     </div>
-                        <div class="item-inner">
-                            <div class="portfolio-image">
-                                <a href="{{ post.url }}" class="portfolio-image-link">
-                                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                                </a>
-                            </div>
-                            <div class="portfolio-meta">
-                                {% include portfolio_intro.html %}
-                                <a href="{{ post.url }}" class="portfolio-link">
-                                    <h2 class="portfolio-title">{{ post.title }}</h2>
-                                    <p class="portfolio-excerpt">{{ post.excerpt }}</p>
-                                </a>
-                            </div>
-                        </div>
                 </div>
             {% endif %}
         {% endfor %}
