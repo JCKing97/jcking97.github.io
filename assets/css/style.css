@@ -11,13 +11,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-a .active {
-    text-decoration: underline;
-}
-
 a {
     text-decoration: none;
     color: #D4D5A5;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 a:hover {
