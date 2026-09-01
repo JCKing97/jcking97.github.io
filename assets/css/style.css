@@ -77,22 +77,29 @@ hr {
 }
 
 /* container */
-.responsive-two-columns {
-    display:flex;
-    flex-wrap:wrap;
+.right-sidebar {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* columns */
-.responsive-two-columns > * {
-    width:100%;
-    padding:1rem;
+.right-sidebar > * {
+    max-width: 100%;
+    padding: 1rem;
 }
 
 /* tablet breakpoint */
 @media (min-width:768px) {
-    .responsive-two-columns > * {
-        width:50%;
+    .right-sidebar > *:nth-child(1) {
+        width: calc(100% / 3 * 2);;
     }
+    .right-sidebar > *:nth-child(2) {
+        width: calc(100% / 3);;
+    }
+}
+
+.column > * {
+    max-width: 100%;
 }
 
 /*
