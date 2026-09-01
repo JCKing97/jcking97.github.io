@@ -3,11 +3,11 @@ layout: page
 title: Portfolio
 ---
 
+{% assign sidebar_count = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
-        {% increment sidebar_count %}
+        {% assign sidebar_count = sidebar_count | plus: 1 %}
         {% assign remainder = sidebar_count | modulo: 2 %}
-        {{ remainder }}
         {% if remainder != 0 %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
