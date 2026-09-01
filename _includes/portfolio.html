@@ -1,9 +1,5 @@
 <div class="portfolio-section">
-    <div class="portfolio-nav-overlay">
-        <button id="portfolio-prev" class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
-        <button id="portfolio-next" class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
-    </div>
-    
+    <!-- per-image overlay buttons will be inserted inside each .portfolio-image -->
 
     <div id="portfolio-carousel" class="portfolio-carousel">
         {% for post in site.posts %}
@@ -14,6 +10,8 @@
                             <a href="{{ post.url }}" class="portfolio-image-link">
                                 <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                             </a>
+                            <button class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
+                            <button class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
                         </div>
                         <div class="portfolio-meta">
                             {% if forloop.first %}
