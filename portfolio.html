@@ -7,8 +7,8 @@ title: Portfolio
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
         {% assign i = i | plus:1 %}
-        {% capture modulo %}{{ i | mod:2 }}{% endcapture %}
-        {% if modulo != "0" %}
+        {% assign remainder = i | modulo: 2 %}
+        {% if remainder != "0" %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
