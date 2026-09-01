@@ -12,15 +12,20 @@
                             <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
                         </div>
                     </div>
-                    <a href="{{ post.url }}" class="portfolio-link">
-                        <div class="portfolio-image">
-                            <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                        <div class="item-inner">
+                            <div class="portfolio-image">
+                                <a href="{{ post.url }}" class="portfolio-image-link">
+                                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                                </a>
+                            </div>
+                            <div class="portfolio-meta">
+                                {% include portfolio_intro.html %}
+                                <a href="{{ post.url }}" class="portfolio-link">
+                                    <h2 class="portfolio-title">{{ post.title }}</h2>
+                                    <p class="portfolio-excerpt">{{ post.excerpt }}</p>
+                                </a>
+                            </div>
                         </div>
-                        <div class="portfolio-meta">
-                            <h2 class="portfolio-title">{{ post.title }}</h2>
-                            <p class="portfolio-excerpt">{{ post.excerpt }}</p>
-                        </div>
-                    </a>
                 </div>
             {% endif %}
         {% endfor %}
