@@ -6,7 +6,6 @@ title: Portfolio
 {% assign i = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
-        <p>{{ post.title }}</p>
         {% assign i = i | plus:1 %}
         {% if i % 2 == 1 %}
             <div class="left-sidebar">
@@ -14,13 +13,13 @@ title: Portfolio
                     <h4>{{ post.title }}</h4>
                 </div>
                 <div class="sidebar-entry">
-                    <img src="{{ post.img }}" alt="{{ post.title }}" />
+                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                 </div>
             </div>
         {% else %}
             <div class="right-sidebar">
                 <div class="sidebar-entry">
-                    <img src="{{ post.img }}" alt="{{ post.title }}" />
+                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                 </div>
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
