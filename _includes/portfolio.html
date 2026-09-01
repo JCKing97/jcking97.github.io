@@ -1,16 +1,17 @@
 <div class="portfolio-section">
-    <div class="portfolio-intro">
-        {% include portfolio_intro.html %}
-        <div class="portfolio-nav">
-            <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
-            <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
-        </div>
-    </div>
-
     <div id="portfolio-carousel" class="portfolio-carousel">
         {% for post in site.posts %}
             {% if post.categories contains "portfolio" %}
                 <div class="portfolio-item">
+                    <div class="portfolio-intro">
+                        {% if forloop.first %}
+                        {% include portfolio_intro.html %}
+                        {% endif %}
+                        <div class="portfolio-nav">
+                            <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
+                            <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
+                        </div>
+                    </div>
                     <a href="{{ post.url }}" class="portfolio-link">
                         <div class="portfolio-image">
                             <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
