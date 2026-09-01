@@ -6,6 +6,7 @@ title: Portfolio
 {% assign i = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
+        <p>Test</p>
         {% assign i = i | plus:1 %}
         {% if i % 2 == 1 %}
             <div class="left-sidebar">
