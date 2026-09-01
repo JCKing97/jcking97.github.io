@@ -5,14 +5,12 @@ img: DSC02013.JPG
 excerpt: |
     These predatory flying insects make up the Odonata order, whose fossils first appear in the late Triassic over 200 Ma (million years ago).<br/><br/>
 
-    They catch their prey on the wing and can change direction and hover incredibly quickly causing engineers throughout history to study them.<br/><br/>
+    They are extremely agile, catching prey on the wing and are a key health indicator species of their chosen habitat, wetlands.<br/><br/>
 
-    Besides being an incredibly diverse and beautiful order, they are a key indicator species for the health of wetland habitats.<br/><br/>
-
-    There are 57 species of Odonata in the UK and this pictured is <span class="species-name">Emperor Dragonfly</span>.
+    There are 57 species of Odonata in the UK and this species, the <span class="species-name">Emperor Dragonfly</span>, was photographed at Broadwater Warren in East Sussex.
 order: 1
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
 ---
 
-Some further details
+More on dragonflies and damselflies.
