@@ -2,7 +2,7 @@
 layout: post
 title: Butterflies and Moths
 img: DSC01722.JPG
-intro: 
+intro: Butterflies and Moths
 order: 2
 category: portfolio
 ---
