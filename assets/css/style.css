@@ -76,40 +76,50 @@ hr {
     margin: 5%;
 }
 
-/* container */
 .right-sidebar {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* columns */
-.right-sidebar > * {
-    max-width: 100%;
+.right-sidebar > div {
+    width: 100%;
     padding: 1rem;
 }
 
-/* tablet breakpoint */
 @media (min-width:768px) {
     .right-sidebar > *:nth-child(1) {
-        width: calc(100% / 3 * 2);;
+        width: calc(100% / 3 * 2);
     }
     .right-sidebar > *:nth-child(2) {
-        width: calc(100% / 3);;
+        width: calc(100% / 3);
     }
 }
 
-.column > * {
+.sidebar-entry > * {
     max-width: 100%;
 }
 
-/*
-Peachtree: #efb9a5
-Forest: #3c4b33
-Sunflower: #e9c770
-Mist: #eeeced
-Stream: #c7d6e3
-Meadow: #bfc694
-Blossom: #ffe6dd
-Fern: #6f8d5e
-Earth: #000000
-*/
+
+.left-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-sidebar > div {
+    width: 100%;
+    padding: 1rem;
+}
+
+@media (min-width:768px) {
+    .left-sidebar > *:nth-child(1) {
+        width: calc(100% / 3);
+    }
+    .left-sidebar > *:nth-child(2) {
+        width: calc(100% / 3 * 2);
+    }
+}
+
+.sidebar-entry > * {
+    max-width: 100%;
+}
+
