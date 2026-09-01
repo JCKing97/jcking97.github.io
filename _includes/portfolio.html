@@ -7,13 +7,13 @@
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     {% include portfolio_intro.html %}
-                    <a href="{{ post.url }}">
+                    <a href="{{ post.url }}" class="sidebar-link">
                         <h2 class="sidebar-title">{{ post.title }}</h2>
                         <p class="sidebar-excerpt">{{ post.excerpt }}</p>
                     </a>
                 </div>
                 <div class="sidebar-entry">
-                    <a href="{{ post.url }}">
+                    <a href="{{ post.url }}" class="sidebar-link">
                         <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                     </a>
                 </div>
@@ -21,13 +21,13 @@
         {% else %}
             <div class="right-sidebar">
                 <div class="sidebar-entry">
-                    <a href="{{ post.url }}">
+                    <a href="{{ post.url }}" class="sidebar-link">
                         <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                     </a>
                 </div>
                 <div class="sidebar-entry">
                     {% include portfolio_intro.html %}
-                    <a href="{{ post.url }}">
+                    <a href="{{ post.url }}" class="sidebar-link">
                         <h2 class="sidebar-title">{{ post.title }}</h2>
                         <p class="sidebar-excerpt">{{ post.excerpt }}</p>
                     </a>

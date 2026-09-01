@@ -99,6 +99,10 @@ hr {
     max-width: 100%;
 }
 
+.sidebar-link > * {
+    max-width: 100%;
+}
+
 .left-sidebar {
     display: flex;
     flex-wrap: wrap;
