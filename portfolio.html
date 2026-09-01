@@ -17,6 +17,15 @@ title: Portfolio
                     <img src="{{ post.img }}" alt="{{ post.title }}" />
                 </div>
             </div>
+        {% else %}
+            <div class="right-sidebar">
+                <div class="sidebar-entry">
+                    <img src="{{ post.img }}" alt="{{ post.title }}" />
+                </div>
+                <div class="sidebar-entry">
+                    <h4>{{ post.title }}</h4>
+                </div>
+            </div>
         {% endif %}
     {% endif %}
 {% endfor %}
