@@ -4,13 +4,6 @@ body {
     font-family: Georgia, 'Garamond', Times, serif;
 }
 
-.wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
 a {
     text-decoration: none;
     color: #D4D5A5;
@@ -55,11 +48,6 @@ a:hover {
     width: 50%;
 }
 
-.page-title {
-    text-align: center;
-    font-size: 40px;
-}
-
 .post-title {
     text-align: center;
     font-size: 30px;
@@ -72,92 +60,12 @@ hr {
     color: black;
 }
 
-.sections {
-    margin: 5%;
-}
-
-.right-sidebar {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.right-sidebar > div {
-    width: 90%;
-    padding: 1rem;
-}
-
-@media (min-width:768px) {
-    .right-sidebar > *:nth-child(1) {
-        width: calc(90% / 3 * 2);
-    }
-    .right-sidebar > *:nth-child(2) {
-        width: calc(90% / 3);
-    }
-}
-
-.sidebar-entry > * {
-    max-width: 100%;
-}
-
-.sidebar-link > * {
-    max-width: 100%;
-}
-
-.left-sidebar {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.left-sidebar > div {
-    width: 90%;
-    padding: 1rem;
-}
-
-@media (min-width:768px) {
-    .left-sidebar > *:nth-child(1) {
-        width: calc(90% / 3);
-    }
-    .left-sidebar > *:nth-child(2) {
-        width: calc(90% / 3 * 2);
-    }
-}
-
-.sidebar-title {
-    align-items: center;
-    text-align: center;
-}
-
-.sidebar-excerpt {
-    text-decoration: none;
-    display: inline-block;
-}
-
-/* Prevent ancestor link hover from underlining this element */
-a:hover .portfolio-excerpt,
-a:focus .portfolio-excerpt {
-    text-decoration: none;
-}
-
 /* Portfolio horizontal carousel */
 .portfolio-section {
     margin: 2rem 5%;
-}
-
-/* Make section a positioning context for overlayed nav */
-.portfolio-section {
     position: relative;
 }
-.portfolio-intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-.portfolio-nav {
-    display: flex;
-    gap: 0.5rem;
-}
+
 .portfolio-arrow {
     background: transparent;
     color: inherit;
@@ -279,6 +187,7 @@ a:focus .portfolio-excerpt {
 }
 
 .species-name {
+    display: inline;
     font-style: italic;
     color: #593D29;
 }
