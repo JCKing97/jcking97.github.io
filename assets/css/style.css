@@ -277,3 +277,8 @@ a:focus .portfolio-excerpt {
 .portfolio-divider {
     color:  #D4D5A5;
 }
+
+.species-name {
+    font-style: italic;
+    color: #593D29;
+}

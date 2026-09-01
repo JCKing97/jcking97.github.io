@@ -9,7 +9,7 @@ excerpt: |
 
     Besides being an incredibly diverse and beautiful order, they are a key indicator species for the health of wetland habitats.<br/><br/>
 
-    There are 57 species of Odonata in the UK and this pictured is Emperor Dragonfly.
+    There are 57 species of Odonata in the UK and this pictured is <div class="species-name">Emperor Dragonfly</div>.
 order: 1
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
