@@ -1,39 +1,27 @@
-{% assign sidebar_count = 0 %}
-{% for post in site.posts %}
-    {% if post.categories contains "portfolio" %}
-        {% assign sidebar_count = sidebar_count | plus: 1 %}
-        {% assign remainder = sidebar_count | modulo: 2 %}
-        {% if remainder != 0 %}
-            <div class="left-sidebar">
-                <div class="sidebar-entry">
-                    {% include portfolio_intro.html %}
-                    <a href="{{ post.url }}" class="sidebar-link">
-                        <h2 class="sidebar-title">{{ post.title }}</h2>
-                        <p class="sidebar-excerpt">{{ post.excerpt }}</p>
+<div class="portfolio-section">
+    <div class="portfolio-intro">
+        {% include portfolio_intro.html %}
+        <div class="portfolio-nav">
+            <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
+            <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
+        </div>
+    </div>
+
+    <div id="portfolio-carousel" class="portfolio-carousel">
+        {% for post in site.posts %}
+            {% if post.categories contains "portfolio" %}
+                <div class="portfolio-item">
+                    <a href="{{ post.url }}" class="portfolio-link">
+                        <div class="portfolio-image">
+                            <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                        </div>
+                        <div class="portfolio-meta">
+                            <h2 class="portfolio-title">{{ post.title }}</h2>
+                            <p class="portfolio-excerpt">{{ post.excerpt }}</p>
+                        </div>
                     </a>
                 </div>
-                <div class="sidebar-entry">
-                    <a href="{{ post.url }}" class="sidebar-link">
-                        <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                    </a>
-                </div>
-            </div>
-        {% else %}
-            <div class="right-sidebar">
-                <div class="sidebar-entry">
-                    <a href="{{ post.url }}" class="sidebar-link">
-                        <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                    </a>
-                </div>
-                <div class="sidebar-entry">
-                    {% include portfolio_intro.html %}
-                    <a href="{{ post.url }}" class="sidebar-link">
-                        <h2 class="sidebar-title">{{ post.title }}</h2>
-                        <p class="sidebar-excerpt">{{ post.excerpt }}</p>
-                    </a>
-                </div>
-            </div>
-        {% endif %}
-        </a>
-    {% endif %}
-{% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
