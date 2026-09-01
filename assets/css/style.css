@@ -170,7 +170,7 @@ a:focus .sidebar-excerpt {
     padding-bottom: 0.5rem;
 }
 .portfolio-item {
-    flex: 0 0 80%;
+    flex: 0 0 95%;
     box-sizing: border-box;
     background: rgba(0,0,0,0.05);
     padding: 1rem;
@@ -192,8 +192,7 @@ a:focus .sidebar-excerpt {
 
 @media (min-width: 768px) {
     .portfolio-item {
-        flex: 0 0 45%;
+        flex: 0 0 85%;
     }
 }
-
 
