@@ -8,7 +8,7 @@ title: Portfolio
         {% increment sidebar_count %}
         {% assign remainder = sidebar_count | modulo: 2 %}
         {{ remainder }}
-        {% if remainder != "0" %}
+        {% if remainder != 0 %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
