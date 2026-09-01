@@ -4,6 +4,7 @@ layout: default
 
 {% include header.html %}
 
+{% if page.categories contains "portfolio" %}
 <article class="post">
 
   <header class="post-header">
@@ -19,5 +20,6 @@ layout: default
   </div>
 
 </article>
+{% endif %}
 
 {% include footer.html %}

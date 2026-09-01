@@ -3,25 +3,34 @@
     {% if post.categories contains "portfolio" %}
         {% assign sidebar_count = sidebar_count | plus: 1 %}
         {% assign remainder = sidebar_count | modulo: 2 %}
-        <a href="{{ post.url }}">
         {% if remainder != 0 %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
-                    <h2 class="sidebar-title">{{ post.title }}</h2>
-                    <p class="sidebar-excerpt">{{ post.excerpt }}</p>
+                    {% include portfolio_intro.html %}
+                    <a href="{{ post.url }}">
+                        <h2 class="sidebar-title">{{ post.title }}</h2>
+                        <p class="sidebar-excerpt">{{ post.excerpt }}</p>
+                    </a>
                 </div>
                 <div class="sidebar-entry">
-                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                    <a href="{{ post.url }}">
+                        <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                    </a>
                 </div>
             </div>
         {% else %}
             <div class="right-sidebar">
                 <div class="sidebar-entry">
-                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                    <a href="{{ post.url }}">
+                        <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                    </a>
                 </div>
                 <div class="sidebar-entry">
-                    <h2 class="sidebar-title">{{ post.title }}</h2>
-                    <p class="sidebar-excerpt">{{ post.excerpt }}</p>
+                    {% include portfolio_intro.html %}
+                    <a href="{{ post.url }}">
+                        <h2 class="sidebar-title">{{ post.title }}</h2>
+                        <p class="sidebar-excerpt">{{ post.excerpt }}</p>
+                    </a>
                 </div>
             </div>
         {% endif %}
