@@ -8,6 +8,4 @@ category: portfolio
 date: 2026-08-31 15:48:21 +0000
 ---
 
-# Butterflies and Moths
-
 Some details
