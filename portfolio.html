@@ -3,12 +3,12 @@ layout: page
 title: Portfolio
 ---
 
-<!-- {% assign i = 0 %} -->
+{% assign i = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
         <p>{{ post.title }}</p>
-        <!-- {% assign i = i | plus:1 %} -->
-        <!-- {% if i % 2 == 1 %}
+        {% assign i = i | plus:1 %}
+        {% if i % 2 == 1 %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
@@ -26,7 +26,7 @@ title: Portfolio
                     <h4>{{ post.title }}</h4>
                 </div>
             </div>
-        {% endif %} -->
+        {% endif %}
     {% endif %}
 {% endfor %}
 
