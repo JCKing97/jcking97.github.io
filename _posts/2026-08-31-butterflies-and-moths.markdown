@@ -2,7 +2,7 @@
 layout: post
 title: "Butterflies and Moths"
 img: DSC01722.JPG
-intro: "Butterflies and Moths"
+excerpt: "Butterflies and Moths"
 order: 2
 category: portfolio
 date: 2026-08-31 15:48:21 +0000

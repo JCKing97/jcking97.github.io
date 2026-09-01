@@ -118,3 +118,19 @@ hr {
     }
 }
 
+.sidebar-title {
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar-excerpt {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Prevent ancestor link hover from underlining this element */
+a:hover .sidebar-excerpt,
+a:focus .sidebar-excerpt {
+    text-decoration: none;
+}
+
