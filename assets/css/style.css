@@ -133,8 +133,8 @@ hr {
 }
 
 /* Prevent ancestor link hover from underlining this element */
-a:hover .sidebar-excerpt,
-a:focus .sidebar-excerpt {
+a:hover .portfolio-excerpt,
+a:focus .portfolio-excerpt {
     text-decoration: none;
 }
 
@@ -188,6 +188,14 @@ a:focus .sidebar-excerpt {
 }
 .portfolio-excerpt {
     margin: 0;
+}
+
+/* Prevent portfolio excerpt from being underlined when its parent link is hovered/focused */
+a:hover .portfolio-excerpt,
+a:focus .portfolio-excerpt,
+.portfolio-link:hover .portfolio-excerpt,
+.portfolio-link:focus .portfolio-excerpt {
+    text-decoration: none;
 }
 
 /* Layout image + meta horizontally on larger screens */
