@@ -9,6 +9,14 @@
             </div> -->
             <div class="link">
                 <a {% if page.title == "Portfolio" or page.title == "Home" %}class="active"{% endif %} href="/portfolio.html">Portfolio</a>
+                {% if page.title == "Portfolio" or page.title == "Home" %}
+                <div class="portfolio-intro">
+                    <div class="portfolio-nav">
+                        <button id="portfolio-prev" class="portfolio-arrow" aria-label="Previous">◀</button>
+                        <button id="portfolio-next" class="portfolio-arrow" aria-label="Next">▶</button>
+                    </div>
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>

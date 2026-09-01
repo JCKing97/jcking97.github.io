@@ -191,7 +191,7 @@ a:focus .sidebar-excerpt {
 }
 
 /* Layout image + meta horizontally on larger screens */
-.portfolio-link {
+.item-inner {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -205,16 +205,16 @@ a:focus .sidebar-excerpt {
 }
 
 @media (min-width: 768px) {
-    .portfolio-link {
+    .item-inner {
         flex-direction: row;
         align-items: center;
     }
     .portfolio-image {
-        flex: 0 0 65%;
+        flex: 0 0 45%;
         margin-right: 1rem;
     }
     .portfolio-meta {
-        flex: 1 1 35%;
+        flex: 1 1 55%;
     }
 }
 
