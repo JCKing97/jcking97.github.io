@@ -1,5 +1,4 @@
 <div class="portfolio-section">
-    <!-- per-image overlay buttons will be inserted inside each .portfolio-image -->
 
     <div id="portfolio-carousel" class="portfolio-carousel">
         {% for post in site.posts %}
@@ -7,9 +6,7 @@
                 <div class="portfolio-item">
                     <div class="item-inner">
                         <div class="portfolio-image">
-                            <a href="{{ post.url }}" class="portfolio-image-link">
-                                <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                            </a>
+                            <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
                             <button class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
                             <button class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
                         </div>

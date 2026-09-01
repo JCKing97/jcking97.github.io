@@ -225,17 +225,14 @@ a:focus .portfolio-excerpt {
 }
 
 /* Prevent portfolio excerpt from being underlined when its parent link is hovered/focused */
-a:hover .portfolio-excerpt,
-a:focus .portfolio-excerpt,
 .portfolio-link:hover .portfolio-excerpt,
 .portfolio-link:focus .portfolio-excerpt {
     text-decoration: none;
 }
 
 /* Ensure the portfolio link doesn't underline text (title/excerpt) */
-.portfolio-link,
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:hover .portfolio-title,
+.portfolio-link:focus .portfolio-title {
     text-decoration: none;
 }
 

@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function onNext() {
-    var amount = Math.round(container.clientWidth * 0.85);
+    var amount = Math.round(container.clientWidth);
     scroll(amount);
   }
 
   function onPrev() {
-    var amount = Math.round(container.clientWidth * 0.85);
+    var amount = Math.round(container.clientWidth);
     scroll(-amount);
   }
 
