@@ -3,29 +3,4 @@ layout: page
 title: Portfolio
 ---
 
-{% assign sidebar_count = 0 %}
-{% for post in site.posts %}
-    {% if post.category == "portfolio" %}
-        {% assign sidebar_count = sidebar_count | plus: 1 %}
-        {% assign remainder = sidebar_count | modulo: 2 %}
-        {% if remainder != 0 %}
-            <div class="left-sidebar">
-                <div class="sidebar-entry">
-                    <h4>{{ post.title }}</h4>
-                </div>
-                <div class="sidebar-entry">
-                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                </div>
-            </div>
-        {% else %}
-            <div class="right-sidebar">
-                <div class="sidebar-entry">
-                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
-                </div>
-                <div class="sidebar-entry">
-                    <h4>{{ post.title }}</h4>
-                </div>
-            </div>
-        {% endif %}
-    {% endif %}
-{% endfor %}
+{% include portfolio.html %}
