@@ -3,11 +3,9 @@ layout: page
 title: Portfolio
 ---
 
-{% assign i = 0 %}
 {% for post in site.posts %}
     {% if post.category == "portfolio" %}
-        {% assign i = i | plus:1 %}
-        {% if i % 2 == 1 %}
+        {% if forloop.index % 2 != 0 %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
                     <h4>{{ post.title }}</h4>
@@ -28,23 +26,3 @@ title: Portfolio
         {% endif %}
     {% endif %}
 {% endfor %}
-
-<!-- 
-<div class="left-sidebar">
-    <div class="sidebar-entry">
-        <h4>Dragonflies and Damselflies</h4>
-    </div>
-    <div class="sidebar-entry">
-        <img src="/assets/images/portfolio/DSC02013.JPG" alt="Dragonflies and Damselflies" />
-    </div>
-</div>
-
-
-<div class="right-sidebar">
-    <div class="sidebar-entry">
-        <img src="/assets/images/portfolio/DSC01722.JPG" alt="Butterflies and Moths" />
-    </div>
-    <div class="sidebar-entry">
-        <h4>Butterflies and Moths</h4>
-    </div>
-</div> -->
