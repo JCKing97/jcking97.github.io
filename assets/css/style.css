@@ -82,23 +82,22 @@ hr {
 }
 
 .right-sidebar > div {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
 }
 
 @media (min-width:768px) {
     .right-sidebar > *:nth-child(1) {
-        width: calc(100% / 3 * 2);
+        width: calc(90% / 3 * 2);
     }
     .right-sidebar > *:nth-child(2) {
-        width: calc(100% / 3);
+        width: calc(90% / 3);
     }
 }
 
 .sidebar-entry > * {
     max-width: 100%;
 }
-
 
 .left-sidebar {
     display: flex;
@@ -106,20 +105,16 @@ hr {
 }
 
 .left-sidebar > div {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
 }
 
 @media (min-width:768px) {
     .left-sidebar > *:nth-child(1) {
-        width: calc(100% / 3);
+        width: calc(90% / 3);
     }
     .left-sidebar > *:nth-child(2) {
-        width: calc(100% / 3 * 2);
+        width: calc(90% / 3 * 2);
     }
-}
-
-.sidebar-entry > * {
-    max-width: 100%;
 }
 
