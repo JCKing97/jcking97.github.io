@@ -7,6 +7,7 @@ title: Portfolio
     {% if post.category == "portfolio" %}
         {% increment sidebar_count %}
         {% assign remainder = sidebar_count | modulo: 2 %}
+        {{ remainder }}
         {% if remainder != "0" %}
             <div class="left-sidebar">
                 <div class="sidebar-entry">
