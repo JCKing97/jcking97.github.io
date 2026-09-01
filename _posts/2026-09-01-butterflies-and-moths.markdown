@@ -8,4 +8,6 @@ category: portfolio
 date: 2026-09-01 15:48:21 +0000
 ---
 
-Put some value in here.
+# Butterflies and Moths
+
+Some details
