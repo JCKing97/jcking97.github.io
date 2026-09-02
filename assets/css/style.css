@@ -5,6 +5,13 @@ body {
     font-family: Georgia, 'Garamond', Times, serif;
 }
 
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 a {
     text-decoration: none;
     color: #D4D5A5;
@@ -29,7 +36,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    float: right;
+    float: center;
     margin: 0;
 }
 
