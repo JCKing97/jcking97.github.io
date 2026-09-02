@@ -197,3 +197,7 @@ hr {
     font-style: italic;
     color: #CD7F32;
 }
+
+.content {
+    max-height: 100%;
+}
