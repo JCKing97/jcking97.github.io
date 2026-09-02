@@ -3,4 +3,27 @@ layout: page
 title: Portfolio
 ---
 
-{% include portfolio.html %}
+<div class="portfolio-section">
+
+    <div id="portfolio-carousel" class="portfolio-carousel">
+        {% for post in site.posts %}
+            {% if post.categories contains "portfolio" %}
+                <div class="portfolio-item">
+                    <div class="item-inner">
+                        <div class="portfolio-image">
+                            <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                            <button class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
+                            <button class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
+                        </div>
+                        <div class="portfolio-meta">
+                            <a href="{{ post.url }}" class="portfolio-link">
+                                <h2 class="portfolio-title">{{ post.title }}</h2>
+                                <p class="portfolio-excerpt">{{ post.excerpt }}</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
