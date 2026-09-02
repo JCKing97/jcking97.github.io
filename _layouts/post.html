@@ -11,11 +11,11 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  <p class="post=excerpt">{{ page.excerpt }}</p>
+
   <div class="post-image-container">
     <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
   </div>
-  
-  <p class="post=excerpt">{{ page.excerpt }}</p>
 
   <div class="post-content">
     {{ content }}
