@@ -54,6 +54,17 @@ a:hover {
     width: 50%;
 }
 
+/* Post entries */
+
+.post { 
+    margin: 0.5rem;
+    flex: 0 0 95%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.05);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
 .post-title {
     text-align: center;
     font-size: 30px;
@@ -61,6 +72,7 @@ a:hover {
 
 .post-image {
     max-width: 90%;
+    border-radius: 4px;
 }
 
 .post-image-container {
