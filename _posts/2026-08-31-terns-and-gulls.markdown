@@ -7,7 +7,7 @@ excerpt: |
 
     It is a diverse family including the bird with the longest migration each year the Arctic Tern, the city dwelling Herring Gull and the purely maritime Kittiwake.<br/><br/>
     
-    Here a <span class="species-name">Common Tern</span> is picture at Rye Harbour Nature Reserve. A number of species of tern nest on the shingle of the islands at the reserve including Common, Sandiwh and Little Terns.
+    Here a <span class="species-name">Common Tern</span> is picture at Rye Harbour Nature Reserve. A number of species of tern nest on the shingle of the islands at the reserve including Common, Sandwich and Little Terns.
 order: 4
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
