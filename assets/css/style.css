@@ -59,6 +59,15 @@ a:hover {
     font-size: 30px;
 }
 
+.post-image {
+    max-width: 85%;
+}
+
+.post-image-container {
+    text-align: center;
+    width:100%;
+}
+
 hr {
     width: 20%;
     margin-top: 20px;
