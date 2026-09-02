@@ -78,17 +78,17 @@ a:hover {
 }
 
 .post-image {
-    max-width: 90%;
+    max-width: 100%;
     border-radius: 4px;
 }
 
 .post-image-container {
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 .post-excerpt {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 /* Portfolio horizontal carousel */
