@@ -193,7 +193,7 @@ a:hover {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .item-inner {
         flex-direction: row;
         align-items: center;
@@ -207,7 +207,7 @@ a:hover {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .portfolio-item {
         flex: 0 0 100%;
     }
@@ -253,7 +253,7 @@ a:hover {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .about-container {
         flex-direction: row;
         align-items: center;
@@ -267,7 +267,7 @@ a:hover {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .about {
         flex: 0 0 100%;
     }
