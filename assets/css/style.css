@@ -253,6 +253,36 @@ a:hover {
     width: 100%;
 }
 
+/* Social links (about page) */
+.about-social {
+    margin-top: 1rem;
+}
+.social-links {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.social-links li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.06);
+    color: #D4D5A5;
+    font-size: 1.125rem;
+}
+.social-links li a:hover {
+    background: rgba(0,0,0,0.12);
+}
+.social-links i {
+    color: #D4D5A5;
+}
+
 @media (min-width: 900px) {
     .about-container {
         flex-direction: row;

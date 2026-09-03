@@ -30,6 +30,21 @@ theme: minima
 plugins:
   - jekyll-feed
 
+minima:
+  social_links:
+    - title: Roots and Wings EJ
+      icon: instagram
+      url: "https://www.instagram.com/roots_and_wings_ej"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/james-king97.bsky.social"
+    - title: iNaturalist
+      icon: dove
+      url: "https://www.inaturalist.org/people/7716372"
+    - title: Goodreads
+      icon: goodreads-g
+      url: "https://www.goodreads.com/user/show/49647734-james-king"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

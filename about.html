@@ -12,25 +12,49 @@ permalink: /about/
         <div class="about-meta">
             <p>
                 Welcome to my portfolio! I am a Software Engineer at the Natural History Museum in London.
-                I have always enjoyed walking in nature, but a few years back I read Wilding by Isabella Tree which opened my eyes to a deeper appreciation.<br/><br/>
-                
+                I have always enjoyed walking in nature, but a few years back I read Wilding by Isabella Tree which opened my eyes to a deeper appreciation.
+            </p>
+
+            <p>
                 Since then I have found more ways to connect with the characters that inhabit our world.
                 Starting with spending time in local biodiversity hotspot and reading all the nature writing I could.
-                I've taken a botany course and foraged. Creating tasty food and drink with wild garlic, blackberries, elderflower etc.<br/><br/>
+                I've taken a botany course and foraged. Creating tasty food and drink with wild garlic, blackberries, elderflower etc.
+            </p>
 
+            <p>
                 In 2025 I was lucky that an amazing person introduced me to photography.
-                It has taken me a step closer to characters I have walked alongside for years.<br/>
+                It has taken me a step closer to characters I have walked alongside for years.
+            </p>
 
+            <p>
                 This portfolio aims to explore the characters and ecology I have been observing in even more depth.
                 I'll be presenting the photographs and my throughts in an accessible reader and listener-friendly form.
                 My hope is to:
-                <ul>
-                    <li>Showcase these characters</li>
-                    <li>Write creatively</li>
-                    <li>Gain a deeper understanding</li>
-                    <li>Share my love</li>
-                </ul>
             </p>
+
+            <ul class="about-hope">
+                <li>Showcase these characters</li>
+                <li>Write creatively</li>
+                <li>Gain a deeper understanding</li>
+                <li>Share my love</li>
+            </ul>
+
+            <div class="about-social">
+                <h3>Connect with me</h3>
+                <ul class="social-links">
+                {% for link in site.minima.social_links %}
+                    <li>
+                        <a href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
+                        {% if link.icon == "dove" %}
+                            <i class="fa-solid fa-dove" aria-hidden="true"></i>
+                        {% else %}
+                            <i class="fa-brands fa-{{ link.icon }}" aria-hidden="true"></i>
+                        {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </div>
