@@ -40,15 +40,14 @@ permalink: /about/
             </ul>
 
             <div class="about-social">
-                <h3>Connect with me</h3>
                 <ul class="social-links">
                 {% for link in site.minima.social_links %}
                     <li>
                         <a href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.title }}">
                         {% if link.icon == "dove" %}
-                            <i class="fa-solid fa-dove" aria-hidden="true"></i>
+                            <i class="fa-solid fa-dove" style="color: #D4D5A5;" aria-hidden="true"></i>
                         {% else %}
-                            <i class="fa-brands fa-{{ link.icon }}" aria-hidden="true"></i>
+                            <i class="fa-brands fa-{{ link.icon }}" style="color: #D4D5A5;" aria-hidden="true"></i>
                         {% endif %}
                         </a>
                     </li>

@@ -256,6 +256,8 @@ a:hover {
 /* Social links (about page) */
 .about-social {
     margin-top: 1rem;
+    width: 100%;
+    text-align: center;
 }
 .social-links {
     display: flex;
