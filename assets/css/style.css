@@ -266,6 +266,7 @@ a:hover {
     padding: 0;
     margin: 0;
     align-items: center;
+    justify-content: center;
 }
 .social-links li a {
     display: inline-flex;
@@ -275,7 +276,7 @@ a:hover {
     height: 40px;
     border-radius: 50%;
     background: rgba(0,0,0,0.06);
-    color: #D4D5A5;
+    color: rgb(212, 213, 165);
     font-size: 1.125rem;
 }
 .social-links li a:hover {
