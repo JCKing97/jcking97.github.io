@@ -44,6 +44,9 @@ minima:
     - title: Goodreads
       icon: goodreads-g
       url: "https://www.goodreads.com/user/show/49647734-james-king"
+    - title: Substack
+      icon: substack
+      url: "https://substack.com/@jamesking97"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
