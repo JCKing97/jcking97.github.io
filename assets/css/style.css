@@ -276,7 +276,7 @@ a:hover {
     height: 40px;
     border-radius: 50%;
     background: rgba(0,0,0,0.06);
-    color: rgb(212, 213, 165);
+    color: #D4D5A5;
     font-size: 1.125rem;
 }
 .social-links li a:hover {
