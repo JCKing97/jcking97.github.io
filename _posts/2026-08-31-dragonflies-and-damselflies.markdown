@@ -13,6 +13,6 @@ They are extremely agile, catching prey on the wing and are a key health indicat
 
 There are 57 species of Odonata in the UK and this species, the <span class="species-name">Emperor Dragonfly</span>, was photographed at Broadwater Warren in East Sussex.
 
-<!-- end of excerpt -->
+<!-- endofexcerpt -->
 
 More on dragonflies and damselflies.

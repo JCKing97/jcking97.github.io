@@ -4,6 +4,7 @@ A portfolio of wildlife photography and writing about the characters in them.
 
 ## TODO
 
+- Fix vulnerabilities
 - Write portfolio pages
 - Add blog section for non-portfolio writing
 - Better posting on Social

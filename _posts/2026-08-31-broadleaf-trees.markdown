@@ -15,6 +15,6 @@ Many species of this tree are so recognisable by their distinctive leaves. The O
 
 Alder is a slightly lesser known tree that oddly produces cone-like structures for reproduction and loves moist ground. Unlike others it will stand strong against rot providing excellent nest sites for otters.
 
-<!-- end of excerpt -->
+<!-- endofexcerpt -->
 
 More on broadleaf trees.

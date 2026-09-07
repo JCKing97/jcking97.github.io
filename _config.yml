@@ -48,7 +48,7 @@ minima:
       icon: substack
       url: "https://substack.com/@jamesking97"
 
-excerpt_separator: <!--end of excerpt-->
+excerpt_separator: "<!--endofexcerpt-->"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

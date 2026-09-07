@@ -13,6 +13,6 @@ It is a diverse family including the bird with the longest migration each year t
 
 Here a <span class="species-name">Common Tern</span> is pictured at Rye Harbour Nature Reserve. A number of species of tern nest on the shingle of the islands at the reserve including Common, Sandwich and Little Terns.
 
-<!-- end of excerpt -->
+<!-- endofexcerpt -->
 
 More on terns and gulls.

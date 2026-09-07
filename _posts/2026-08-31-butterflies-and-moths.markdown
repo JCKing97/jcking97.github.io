@@ -13,6 +13,6 @@ There are some species which migrate incredibly long distances such as the Monar
 
 Moths are often considered less charismatic but consider the six-spot burnet or elephant hawk moth and you might change your mind. They're also incredibly important pollinators of well-known plants such as peas, strawberries and honeysuckle.
 
-<!-- end of excerpt -->
+<!-- endofexcerpt -->
 
 Some details

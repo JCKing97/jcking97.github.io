@@ -13,6 +13,6 @@ The vegetation is often managed through grazing of common land, such as with the
 
 The spikey gorse bush can stun at random times of the year with it's yellow blooms. The yellow flowers are edible and picked at the right time have a subtle coconut like flavour to them. It is also the favoured perch of the <span class="species-name">European Stonechat</span>, a glorious black, orange and white passerine pictured here on the Heath at Chailey Common.
 
-<!-- end of excerpt -->
+<!-- endofexcerpt -->
 
 More on stonechats, meadow pipits, ashdown forest etc.
