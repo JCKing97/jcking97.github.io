@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Butterflies and Moths (Lepidoptera)"
+title: "Butterflies and Moths"
 img: DSC01722.JPG
 order: 2
 categories: portfolio

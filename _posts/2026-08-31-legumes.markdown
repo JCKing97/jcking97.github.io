@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Legumes (Peas and Beans)"
+title: "Legumes"
 img: DSC00144.JPG
 order: 5
 categories: portfolio

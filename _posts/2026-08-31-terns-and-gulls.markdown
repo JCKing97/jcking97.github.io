@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Terns and Gulls (Laridae)"
+title: "Terns and Gulls"
 img: DSC01592.JPG
 order: 4
 categories: portfolio

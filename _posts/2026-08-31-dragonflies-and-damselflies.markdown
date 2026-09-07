@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dragonflies and Damselflies (Odonata)"
+title: "Dragonflies and Damselflies"
 img: DSC02013.JPG
 order: 1
 categories: portfolio
