@@ -13,6 +13,6 @@ Finches are very widely spread across the world, including the inhabitants of th
 
 The pictured bird is a <span class="species-name">Common Linnet</span> at Rye Harbour Nature Reserve. You can tell from the gorgeous reddy-pinky breast that this is a male in breeding plumage.
 
-<!-- endofexcerpt -->
+<!--end of excerpt-->
 
 More on finches.
