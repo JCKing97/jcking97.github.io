@@ -163,6 +163,7 @@ a:hover {
     width: auto;
     height: auto;
     display: block;
+    margin-inline: auto;
     border-radius: 4px;
 }
 
