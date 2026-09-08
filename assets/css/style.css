@@ -252,7 +252,7 @@ a:hover {
     height: auto;
     display: block;
     border-radius: 4px;
-    max-height: 100%;
+    max-height: calc(100vh - 10rem);
 }
 
 .about-container {
