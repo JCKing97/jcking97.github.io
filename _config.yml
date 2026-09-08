@@ -54,7 +54,7 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:name/
-    sort_by: order
+    sort_by: order reverse
   blog:
     output: true
     permalink: /blog/:name/
