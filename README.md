@@ -11,3 +11,4 @@ A portfolio of wildlife photography and writing about the characters in them.
 - Record portfolio pages and add as listenable entry on portfolio pages
 - Link iNaturalist entries to portfolio
 - Rework portfolio images into grid where hover brings up text and link
+- Fix layout forced

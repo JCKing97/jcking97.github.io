@@ -1,7 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var container = document.getElementById('portfolio-carousel');
-  if (!container) return;
-
+var container = document.getElementById('portfolio-carousel');
+if (container) {
   var prevButtons = document.querySelectorAll('.portfolio-prev');
   var nextButtons = document.querySelectorAll('.portfolio-next');
 
@@ -27,4 +25,4 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'ArrowRight') onNext();
     if (e.key === 'ArrowLeft') onPrev();
   });
-});
+}

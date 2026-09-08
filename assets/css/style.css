@@ -158,11 +158,12 @@ a:hover {
 }
 
 .portfolio-item img {
-    width: 100%;
+    max-width: 100%;
+    max-height: calc(100vh - 10rem);
+    width: auto;
     height: auto;
     display: block;
     border-radius: 4px;
-    max-height: calc(100vh - 10rem);
 }
 
 .portfolio-title {
