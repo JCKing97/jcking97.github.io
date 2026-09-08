@@ -80,6 +80,7 @@ a:hover {
 .post-image {
     max-width: 100%;
     border-radius: 4px;
+    max-height: 100%;
 }
 
 .post-image-container {
@@ -114,6 +115,7 @@ a:hover {
 .portfolio-image {
     position: relative;
 }
+
 .portfolio-image .portfolio-arrow {
     position: absolute;
     top: 50%;
@@ -129,12 +131,15 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
 .portfolio-image .portfolio-prev {
     left: 0.5rem;
 }
+
 .portfolio-image .portfolio-next {
     right: 0.5rem;
 }
+
 .portfolio-carousel {
     display: flex;
     gap: 1rem;
@@ -142,6 +147,7 @@ a:hover {
     scroll-behavior: smooth;
     padding-bottom: 0.5rem;
 }
+
 .portfolio-item {
     flex: 0 0 95%;
     box-sizing: border-box;
@@ -149,16 +155,20 @@ a:hover {
     padding: 1rem;
     border-radius: 6px;
 }
+
 .portfolio-item img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 4px;
+    max-height: 100%;
 }
+
 .portfolio-title {
     margin: 0.5rem 0 0.25rem 0;
     font-size: 1.25rem;
 }
+
 .portfolio-excerpt {
     margin: 0;
 }
@@ -169,10 +179,12 @@ a:hover {
 .portfolio-link:focus {
     text-decoration: none;
 }
+
 .portfolio-link:hover .portfolio-title,
 .portfolio-link:focus .portfolio-title {
     text-decoration: underline;
 }
+
 .portfolio-link .portfolio-excerpt,
 .portfolio-link:hover .portfolio-excerpt,
 .portfolio-link:focus .portfolio-excerpt {
@@ -186,9 +198,11 @@ a:hover {
     gap: 1rem;
     align-items: stretch;
 }
+
 .portfolio-image {
     width: 100%;
 }
+
 .portfolio-meta {
     width: 100%;
 }
@@ -224,8 +238,6 @@ a:hover {
 }
 
 /* About */
-
-
 .about {
     flex: 0 0 95%;
     box-sizing: border-box;
@@ -233,11 +245,13 @@ a:hover {
     padding: 1rem;
     border-radius: 6px;
 }
+
 .about-container img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 4px;
+    max-height: 100%;
 }
 
 .about-container {
@@ -246,9 +260,11 @@ a:hover {
     gap: 1rem;
     align-items: stretch;
 }
+
 .about-image {
     width: 100%;
 }
+
 .about-meta {
     width: 100%;
 }
@@ -259,6 +275,7 @@ a:hover {
     width: 100%;
     text-align: center;
 }
+
 .social-links {
     display: flex;
     gap: 0.5rem;
@@ -268,6 +285,7 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
 .social-links li a {
     display: inline-flex;
     align-items: center;
@@ -279,9 +297,11 @@ a:hover {
     color: #D4D5A5;
     font-size: 1.125rem;
 }
+
 .social-links li a:hover {
     background: rgba(0,0,0,0.12);
 }
+
 .social-links i {
     color: #D4D5A5;
 }
