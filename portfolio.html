@@ -6,18 +6,18 @@ permalink: /portfolio/
 
 <div class="portfolio-section">
     <div id="portfolio-carousel" class="portfolio-carousel">
-        {% for post in site.posts | where: "categories", "portfolio" | sort: "order" %}
+        {% for portfolio_entry in site.portfolio %}
         <div class="portfolio-item">
             <div class="item-inner">
                 <div class="portfolio-image">
-                    <img src="/assets/images/portfolio/{{ post.img }}" alt="{{ post.title }}" />
+                    <img src="/assets/images/portfolio/{{ portfolio_entry.img }}" alt="{{ portfolio_entry.title }}" />
                     <button class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
                     <button class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
                 </div>
                 <div class="portfolio-meta">
-                    <a href="{{ post.url }}" class="portfolio-link">
-                        <h2 class="portfolio-title">{{ post.title }}</h2>
-                        <p class="portfolio-excerpt">{{ post.excerpt }}</p>
+                    <a href="{{ portfolio_entry.url }}" class="portfolio-link">
+                        <h2 class="portfolio-title">{{ portfolio_entry.title }}</h2>
+                        <p class="portfolio-excerpt">{{ portfolio_entry.excerpt }}</p>
                     </a>
                 </div>
             </div>

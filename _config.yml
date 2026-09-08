@@ -51,9 +51,14 @@ minima:
 excerpt_separator: "<!--end of excerpt-->"
 
 collections:
-  projects:
+  portfolio:
     output: true
-    permalink: /:collection/:categories:output_ext
+    permalink: /portfolio/:name/
+    sort_by: order
+  blog:
+    output: true
+    permalink: /blog/:name/
+    sort_by: date
 
 # Exclude from processing.
 # The following items will not be processed, by default.
