@@ -250,11 +250,13 @@ a:hover {
 }
 
 .about-container img {
-    width: 100%;
+    max-width: 100%;
+    max-height: calc(100vh - 2rem);
+    width: auto;
     height: auto;
     display: block;
+    margin-inline: auto;
     border-radius: 4px;
-    max-height: calc(100vh - 2rem);
 }
 
 .about-container {
