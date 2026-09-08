@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: portfolio
 title: "Finches"
 img: DSC01259.JPG
-order: 3
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
 ---
 
 Finches are a family of passerines (perching birds) made up of some very well known species including Greenfinches, Bullfinches and Hawfinches.<br/><br/>

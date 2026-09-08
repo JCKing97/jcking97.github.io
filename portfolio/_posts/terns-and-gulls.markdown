@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: portfolio
 title: "Terns and Gulls"
 img: DSC01592.JPG
 order: 4
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
 ---
 
 These seabirds make up the Laridae family. Gulls are well know to all (even if there is no single seagull), but terns are less present in our lives. They often require far more secluded shingle in order to reproduce.<br/><br/>

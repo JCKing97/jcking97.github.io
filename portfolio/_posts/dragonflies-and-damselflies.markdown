@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: portfolio
 title: "Dragonflies and Damselflies"
 img: DSC02013.JPG
 order: 1
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
 ---
 
 These predatory flying insects make up the Odonata order, whose fossils first appear in the late Triassic over 200 Ma (million years ago).<br/><br/>

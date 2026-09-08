@@ -79,8 +79,9 @@ a:hover {
 
 .post-image {
     max-width: 100%;
+    height: auto;
     border-radius: 4px;
-    max-height: 100%;
+    max-height: calc(100vh - 10rem);
 }
 
 .post-image-container {
@@ -161,7 +162,7 @@ a:hover {
     height: auto;
     display: block;
     border-radius: 4px;
-    max-height: 100%;
+    max-height: calc(100vh - 10rem);
 }
 
 .portfolio-title {

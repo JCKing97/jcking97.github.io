@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: portfolio
 title: "Butterflies and Moths"
 img: DSC01722.JPG
 order: 2
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
 ---
 
 Lepidoptera is an order containing winged insects including butterflies and moths. Butterflies being some of the most colourful species in nature. Pictured is one of the less colourful species the <span class="species-name">Meadow Brown</span> at Brede High Woods in East Sussex.<br/><br/>

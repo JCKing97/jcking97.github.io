@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: portfolio
 title: "Broadleaf Trees"
 img: DSC00754.JPG
 order: 6
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
 ---
 
 Is there a more transformative group of life than trees? They have so drastically changed our world as to make it liveable for large animals changing the climate and providing food and shelter for so many.<br/><br/> 
