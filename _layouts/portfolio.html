@@ -12,7 +12,7 @@ layout: default
 {% assign next = null %}
 {% assign previous = null %}
 {% for portfolio in site.portfolio %}
-  {% if portfolio.url == page.url and !previous_assigned %}
+  {% if portfolio.url == page.url and not previous_assigned %}
     {% assign previous = previous_in_loop %}
     {% assign previous_assigned = true %}
   {% endif %}
