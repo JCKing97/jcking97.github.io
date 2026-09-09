@@ -331,3 +331,40 @@ a:hover {
     }
 }
 
+/* Blog entries */
+
+.blog-years-container,
+.blog-months-container {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.blog-years,
+.blog-months {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-years li a,
+.blog-months li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.06);
+    color: #D4D5A5;
+    font-size: 1.125rem;
+}
+
+.blog-year a:hover,
+.blog-month a:hover {
+    background: rgba(0,0,0,0.12);
+}
