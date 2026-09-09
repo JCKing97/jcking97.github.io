@@ -26,7 +26,7 @@ layout: default
 {% for portfolio in site.portfolio %}
   {% if portfolio.url == page.url and !previous_assigned %}
     {% assign previous = previous_in_loop %}
-    {% assign previous_assigned = true % }
+    {% assign previous_assigned = true %}
   {% endif %}
   {% if assign_next_in_next_iteration %}
     {% assign next = portfolio %}
