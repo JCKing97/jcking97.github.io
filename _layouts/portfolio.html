@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include header.html %}
-
+<!-- 
 <article class="post">
 
   <header class="post-header">
@@ -14,7 +14,7 @@ layout: default
     {{ content }}
   </div>
 
-</article>
+</article> -->
 
 {% assign previous_in_loop = null %}
 {% assign previous_assigned = false %}
@@ -31,10 +31,10 @@ layout: default
     {% assign next = portfolio %}
     {% assign assign_next_in_next_iteration = false %}
   {% endif %}
-  {% if portfolio.url == page.url and !next_assigned %}
+  {% if portfolio.url == page.url and not next_assigned %}
     {% assign assign_next_in_next_iteration = true %}
   {% endif %}
-{% assign previous_in_loop = previous %}
+  {% assign previous_in_loop = previous %}
 {% endfor %}
 
 <article class="portfolio">
