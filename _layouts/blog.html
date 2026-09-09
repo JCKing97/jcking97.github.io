@@ -9,13 +9,15 @@ layout: default
 
     {% assign page_year = page.date | date: "%Y" %}
     {% assign page_month = page.date | date: "%b" %}
+    {% assign page_archive_key = page.date | date: "%Y-%m" %}
 
     {% assign year = null %}
     {% assign blog_archives = site.blog | where: "layout", "blog" %}
+    {% assign sorted_archives = blog_archives | sort: "date" %}
 
     <div class="blog-years-container">
     <ul class="blog-years">
-    {% for post in blog_archives sort: "date" %}
+    {% for post in sorted_archives %}
         {% assign post_year = post.date | date: "%Y" %}
         {% assign post_month = post.date | date: "%b" %}
         {% if year != post_year %}
@@ -32,7 +34,7 @@ layout: default
     {% assign months = "" | split: "" %}
     <div class="blog-months-container">
     <ul class="blog-months">
-    {% for post in blog_archives sort: "date" %}
+    {% for post in sorted_archives %}
         {% assign post_year = post.date | date: "%Y" %}
         {% assign post_month = post.date | date: "%b" %}
         {% if months contains post_month %}
@@ -47,16 +49,17 @@ layout: default
     </ul>
     </div>
 
-    {% assign blog_posts = site.blog | where: "year", page_year | where: "month", page_month | where: "layout", "blog_post" %}
-
     <div class="blog-posts">
-    {% for post in blog_posts %}
+    {% for post in site.blog | sort: "date" %}
+        {% assign post_archive_key = post.date | date: "%Y-%m" %}
+        {% if post.layout == "blog_post" and post_archive_key == page_archive_key %}
         <div class="blog-post">
             <a href="{{ post.url }}">
                 <h5>{{ post.title }}</h5>
                 <p>{{ post.excerpt }}</p>
             </a>
         </div>
+        {% endif %}
     {% endfor %}
     </div>
 
