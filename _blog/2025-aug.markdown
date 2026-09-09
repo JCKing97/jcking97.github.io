@@ -1,0 +1,6 @@
+---
+layout: blog
+title: "Blog"
+year: "2025"
+month: "aug"
+---
