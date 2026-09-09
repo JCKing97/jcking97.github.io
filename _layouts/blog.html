@@ -50,7 +50,8 @@ layout: default
     </div>
 
     <div class="blog-posts">
-    {% for post in site.blog | sort: "date" %}
+    {% assign sorted_posts = site.blog | sort: "date" %}
+    {% for post in sorted_posts %}
         {% assign post_archive_key = post.date | date: "%Y-%m" %}
         {% if post.layout == "blog_post" and post_archive_key == page_archive_key %}
         <div class="blog-post">
