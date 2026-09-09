@@ -13,8 +13,4 @@ In spring/summer the Common Vetch produces beautiful purple flowers. This specim
 
 <!--end of excerpt-->
 
-<div class="post-image-container">
-    <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
-</div>
-
 More on legumes.

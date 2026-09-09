@@ -13,8 +13,4 @@ Here a <span class="species-name">Common Tern</span> is pictured at Rye Harbour 
 
 <!--end of excerpt-->
 
-<div class="post-image-container">
-    <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
-</div>
-
 More on terns and gulls.

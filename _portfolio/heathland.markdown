@@ -13,8 +13,4 @@ The spikey gorse bush is also common on the heath and produces edible yellow flo
 
 <!--end of excerpt-->
 
-<div class="post-image-container">
-    <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
-</div>
-
 More on stonechats, meadow pipits, ashdown forest etc.

@@ -13,8 +13,4 @@ The pictured bird is a <span class="species-name">Common Linnet</span> at Rye Ha
 
 <!--end of excerpt-->
 
-<div class="post-image-container">
-    <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
-</div>
-
 More on finches.

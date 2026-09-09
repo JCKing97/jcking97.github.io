@@ -15,8 +15,4 @@ Pictured is a <span class="species-name">Common Alder</span> leaf. It is slightl
 
 <!--end of excerpt-->
 
-<div class="post-image-container">
-    <img class="post-image" src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
-</div>
-
 More on broadleaf trees.
