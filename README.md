@@ -4,11 +4,10 @@ A portfolio of wildlife photography and writing about the characters in them.
 
 ## TODO
 
-- Fix vulnerabilities
+- Fix ordering of portfolio entries
 - Write portfolio pages
 - Add blog section for non-portfolio writing
 - Better posting on Social
 - Record portfolio pages and add as listenable entry on portfolio pages
 - Link iNaturalist entries to portfolio
 - Rework portfolio images into grid where hover brings up text and link
-- Fix layout forced
