@@ -25,7 +25,7 @@ permalink: /blog/
     <div class="blog-months-container">
     <ul class="blog-months">
     {% for post in site.blog %}
-        {% assign post_month = post.date | date: "%m" %}
+        {% assign post_month = post.date | date: "%mmm" %}
         {% if post.first or month != post_month %}
         {% assign month = post_month %}
         <li class="blog-month">

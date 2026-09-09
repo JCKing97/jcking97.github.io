@@ -24,9 +24,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 60px;
-    border-radius: 2%;
+    width: 80px;
+    height: 50px;
+    border-radius: 10%;
     background: rgba(0,0,0,0.06);
     color: #D4D5A5;
     font-size: 1.125rem;
