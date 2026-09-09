@@ -8,9 +8,10 @@ layout: default
 <div class="blog-container">
 
     {% assign year = "Not a year" %}
+    {% assign blog_archives = site.blog | where: "layout", "blog" %}
     <div class="blog-years-container">
     <ul class="blog-years">
-    {% for post in site.blog | where: "layout", "blog" %}
+    {% for post in blog_archives %}
         {% if post.first or year != post.year %}
         {% assign year = post.year %}
         <li class="blog-year">
@@ -24,7 +25,7 @@ layout: default
     {% assign month = "Not a month" %}
     <div class="blog-months-container">
     <ul class="blog-months">
-    {% for post in site.blog | where: "layout", "blog" %}
+    {% for post in blog_archives %}
         {% if post.first or month != post.month %}
         {% assign month = post.month %}
         <li class="blog-month">
@@ -38,7 +39,8 @@ layout: default
     <div class="blog-posts">
     {% assign file_name_and_ext = page.name | split: "." %}
     {% assign file_name = file_name_and_ext[0] %}
-    {% for post in site.blog | where_exp: "post", "post.name contains file_name" %}
+    {% assign archive_posts = site.blog | where: "layout", "blog_post" | where_exp: "post", "post.name contains file_name" %}
+    {% for post in archive_posts %}
         <div class="blog-post">
             <a href="{{ post.url }}">
                 <h5>{{ post.title }}</h5>
