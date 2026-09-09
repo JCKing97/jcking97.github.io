@@ -7,29 +7,31 @@ layout: default
 
 <div class="blog-container">
 
-    {% assign year = "Not a year" %}
+    {% assign year = null %}
     {% assign blog_archives = site.blog | where: "layout", "blog" %}
     <div class="blog-years-container">
     <ul class="blog-years">
     {% for post in blog_archives %}
-        {% if post.first or year != post.year %}
+        {% if year != post.year %}
         {% assign year = post.year %}
+        {% capture blog_year_link %} /blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
         <li class="blog-year">
-            <a href="#">{{ year }}</a>
+            <a href="{{ blog_year_link | relative_url }}">{{ year }}</a>
         </li>
         {% endif %}
     {% endfor %}
     </ul>
     </div>
 
-    {% assign month = "Not a month" %}
+    {% assign month = null %}
     <div class="blog-months-container">
     <ul class="blog-months">
     {% for post in blog_archives %}
-        {% if post.first or month != post.month %}
+        {% if month != post.month %}
         {% assign month = post.month %}
+        {% capture blog_month_link %} /blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
         <li class="blog-month">
-            <a href="#">{{ month }}</a>
+            <a href="{{ blog_month_link | relative_url }}">{{ month | capitalize }}</a>
         </li>
         {% endif %}
     {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: blog
 title: "Blog"
-year: 2026
-month: Aug
+year: "2026"
+month: "aug"
 ---
