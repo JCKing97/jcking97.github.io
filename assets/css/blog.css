@@ -26,7 +26,7 @@
     justify-content: center;
     width: 80px;
     height: 50px;
-    border-radius: 10%;
+    border-radius: 6px;
     background: rgba(0,0,0,0.06);
     color: #D4D5A5;
     font-size: 1.125rem;
@@ -36,3 +36,39 @@
 .blog-month a:hover {
     background: rgba(0,0,0,0.12);
 }
+
+.blog-post {
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.05);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.blog-post a,
+.blog-post a:hover,
+.blog-post a:focus {
+    text-decoration: none;
+}
+
+.blog-post a:hover h5,
+.blog-post a:focus h5 {
+    text-decoration: underline;
+}
+
+.blog-post a p,
+.blog-post a:hover p,
+.blog-post a:focus p {
+    text-decoration: none;
+}
+
+.portfolio-link:hover .portfolio-title,
+.portfolio-link:focus .portfolio-title {
+    text-decoration: underline;
+}
+
+.portfolio-link .portfolio-excerpt,
+.portfolio-link:hover .portfolio-excerpt,
+.portfolio-link:focus .portfolio-excerpt {
+    text-decoration: none;
+}
+
