@@ -2,7 +2,6 @@
 layout: portfolio
 title: "Legumes"
 img: DSC00144.JPG
-order: 2
 ---
 
 Legumes are a family of Angiosperms (flowering plants) very well known for their value in agriculture. They produce often delicious fruits such as peas and beans and are famous for their protein content and nitrogen fixing abilities.<br/><br/>

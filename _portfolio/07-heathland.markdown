@@ -2,7 +2,6 @@
 layout: portfolio
 title: "Heathland"
 img: DSC00858.JPG
-order: 7
 ---
 
 Heather is the beautiful flowering plant that gives it's name to this rich habitat. The Ashdown Forest is blanketed in it's purple flowers over the summer months. But heathland supports a variety of plant and animal species throughout the year.<br/><br/>

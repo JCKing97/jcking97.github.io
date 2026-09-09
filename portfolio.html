@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 <div class="portfolio-section">
     <div id="portfolio-carousel" class="portfolio-carousel">
-        {% for portfolio_entry in site.portfolio | reverse %}
+        {% for portfolio_entry in site.portfolio | sort: "name" %}
         <div class="portfolio-item">
             <div class="item-inner">
                 <div class="portfolio-image">
