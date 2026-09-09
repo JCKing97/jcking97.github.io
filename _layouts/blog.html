@@ -39,16 +39,17 @@ layout: default
     </div>
 
     <div class="blog-posts">
-    {% assign file_name_and_ext = page.name | split: "." %}
-    {% assign file_name = file_name_and_ext[0] %}
-    {% assign archive_posts = site.blog | where: "layout", "blog_post" | where_exp: "post", "post.name contains file_name" %}
-    {% for post in archive_posts %}
+    {% capture archive_key %}{{ page.year }}-{{ page.month | downcase }}{% endcapture %}
+    {% for post in site.blog %}
+        {% assign post_name = post.name | downcase %}
+        {% if post.layout == "blog_post" and post_name contains archive_key %}
         <div class="blog-post">
             <a href="{{ post.url }}">
                 <h5>{{ post.title }}</h5>
                 <p>{{ post.excerpt }}</p>
             </a>
         </div>
+        {% endif %}
     {% endfor %}
     </div>
 
