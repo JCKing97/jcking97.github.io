@@ -41,6 +41,7 @@
     box-sizing: border-box;
     background: rgba(0,0,0,0.05);
     padding: 1rem;
+    margin: 1rem;
     border-radius: 6px;
 }
 
@@ -58,17 +59,6 @@
 .blog-post a p,
 .blog-post a:hover p,
 .blog-post a:focus p {
-    text-decoration: none;
-}
-
-.portfolio-link:hover .portfolio-title,
-.portfolio-link:focus .portfolio-title {
-    text-decoration: underline;
-}
-
-.portfolio-link .portfolio-excerpt,
-.portfolio-link:hover .portfolio-excerpt,
-.portfolio-link:focus .portfolio-excerpt {
     text-decoration: none;
 }
 
