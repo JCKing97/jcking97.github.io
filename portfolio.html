@@ -4,24 +4,4 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<div class="portfolio-section">
-    <div id="portfolio-carousel" class="portfolio-carousel">
-        {% for portfolio_entry in site.portfolio | sort: "name" %}
-        <div class="portfolio-item">
-            <div class="item-inner">
-                <div class="portfolio-image">
-                    <img src="/assets/images/portfolio/{{ portfolio_entry.img }}" alt="{{ portfolio_entry.title }}" />
-                    <button class="portfolio-arrow portfolio-prev" aria-label="Previous">◀</button>
-                    <button class="portfolio-arrow portfolio-next" aria-label="Next">▶</button>
-                </div>
-                <div class="portfolio-meta">
-                    <a href="{{ portfolio_entry.url }}" class="portfolio-link">
-                        <h2 class="portfolio-title">{{ portfolio_entry.title }}</h2>
-                        <p class="portfolio-excerpt">{{ portfolio_entry.excerpt }}</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+
