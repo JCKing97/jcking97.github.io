@@ -64,6 +64,7 @@
 
 .social-links li a:hover {
     background: rgba(0,0,0,0.12);
+    text-decoration: none;
 }
 
 .social-links i {
