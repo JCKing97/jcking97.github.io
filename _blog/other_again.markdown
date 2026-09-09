@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Alliums"
-date: 2024-01-28 15:48:21 +0000
+title: "Other Again"
+date: 2025-06-30 15:48:21 +0000
 ---
 
 Entrance on Alliums

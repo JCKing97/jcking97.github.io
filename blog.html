@@ -10,7 +10,7 @@ permalink: /blog/
     <div class="blog-years-container">
     <ul class="blog-years">
     {% for post in site.blog %}
-        {% assign post_year = post.date | year }
+        {% assign post_year = post.date | year %}
         {% if post.first or year != post_year %}
         {% assign year = post_year %}
         <li class="blog-year">
@@ -25,7 +25,7 @@ permalink: /blog/
     <div class="blog-months-container">
     <ul class="blog-months">
     {% for post in site.blog %}
-        {% assign post_month = post.date | month }
+        {% assign post_month = post.date | month %}
         {% if post.first or month != post_month %}
         {% assign month = post_month %}
         <li class="blog-month">
