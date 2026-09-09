@@ -1,9 +1,9 @@
 ---
 layout: blog_post
-title: "Other Again"
+title: "Entrance on Sep 2nd"
 ---
 
-Entrance on Alliums
+Entrance on Sep 2nd
 
 <!--end of excerpt-->
 

@@ -10,10 +10,9 @@ layout: default
     {% assign year = "Not a year" %}
     <div class="blog-years-container">
     <ul class="blog-years">
-    {% for post in site.blog %}
-        {% assign post_year = post.date | date: "%Y" %}
-        {% if post.first or year != post_year %}
-        {% assign year = post_year %}
+    {% for post in site.blog | where: "layout", "blog" %}
+        {% if post.first or year != post.year %}
+        {% assign year = post.year %}
         <li class="blog-year">
             <a href="#">{{ year }}</a>
         </li>
@@ -25,10 +24,9 @@ layout: default
     {% assign month = "Not a month" %}
     <div class="blog-months-container">
     <ul class="blog-months">
-    {% for post in site.blog %}
-        {% assign post_month = post.date | date: "%b" %}
-        {% if post.first or month != post_month %}
-        {% assign month = post_month %}
+    {% for post in site.blog | where: "layout", "blog" %}
+        {% if post.first or month != post.month %}
+        {% assign month = post.month %}
         <li class="blog-month">
             <a href="#">{{ month }}</a>
         </li>
@@ -40,7 +38,7 @@ layout: default
     <div class="blog-posts">
     {% assign file_name_and_ext = page.name | split: "." %}
     {% assign file_name = file_name_and_ext[0] %}
-    {% for post in site.blog | where "name" contains file_name %}
+    {% for post in site.blog | where_exp: "post", "post.name contains file_name" %}
         <div class="blog-post">
             <a href="{{ post.url }}">
                 <h5>{{ post.title }}</h5>
