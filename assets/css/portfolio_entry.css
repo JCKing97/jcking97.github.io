@@ -1,0 +1,32 @@
+
+/* Post entries */
+
+.post { 
+    margin: 0.5rem;
+    flex: 0 0 95%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.05);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.post-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-height: calc(100vh - 2rem);
+}
+
+.post-image-container {
+    text-align: center;
+    width: 100%;
+}
+
+.post-excerpt {
+    max-width: 100%;
+}
