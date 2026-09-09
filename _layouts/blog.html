@@ -12,7 +12,7 @@ layout: default
 
     <div class="blog-years-container">
     <ul class="blog-years">
-    {% for post in blog_archives %}
+    {% for post in blog_archives sort: "year", "month" %}
         {% if year != post.year %}
         {% assign year = post.year %}
         {% capture blog_year_link %}/blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
@@ -27,10 +27,10 @@ layout: default
     {% assign month = null %}
     <div class="blog-months-container">
     <ul class="blog-months">
-    {% for post in blog_archives %}
+    {% for post in blog_archives sort: "year", "month" %}
         {% if month != post.month %}
         {% assign month = post.month %}
-        {% capture blog_month_link %}/blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
+        {% capture blog_month_link %}/blog/{{ page.year }}-{{ post.month | downcase }}/{% endcapture %}
         <li class="blog-month">
             <a href="{{ blog_month_link | relative_url }}">{{ month | capitalize }}</a>
         </li>
@@ -39,7 +39,7 @@ layout: default
     </ul>
     </div>
 
-    {% assign blog_posts = site.blog | where: "year", page.year | where: "month", page.month %}
+    {% assign blog_posts = site.blog | where: "year", page.year | where: "month", page.month | where: "layout", "blog_post" %}
 
     <div class="blog-posts">
     {% for post in blog_posts %}
