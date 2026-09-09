@@ -1,8 +1,7 @@
 ---
 layout: blog_post
 title: "Entrance on Aug 31st"
-year: "2026"
-month: "aug"
+date: "2026-08-31"
 ---
 
 Entrance on Aug 31st

@@ -13,9 +13,11 @@ layout: default
     <div class="blog-years-container">
     <ul class="blog-years">
     {% for post in blog_archives sort: "year", "month" %}
-        {% if year != post.year %}
-        {% assign year = post.year %}
-        {% capture blog_year_link %}/blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% assign post_month = post.date | date: "%b" %}
+        {% if year != post_year %}
+        {% assign year = post_year %}
+        {% capture blog_year_link %}/blog/{{ post_year }}-{{ post_month | downcase }}/{% endcapture %}
         <li class="blog-year">
             <a href="{{ blog_year_link | relative_url }}">{{ year }}</a>
         </li>
@@ -28,9 +30,11 @@ layout: default
     <div class="blog-months-container">
     <ul class="blog-months">
     {% for post in blog_archives sort: "year", "month" %}
-        {% if month != post.month %}
-        {% assign month = post.month %}
-        {% capture blog_month_link %}/blog/{{ page.year }}-{{ post.month | downcase }}/{% endcapture %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% assign post_month = post.date | date: "%b" %}
+        {% if month != post_month %}
+        {% assign month = post_month %}
+        {% capture blog_month_link %}/blog/{{ page.date | date: "%Y" }}-{{ post_month | downcase }}/{% endcapture %}
         <li class="blog-month">
             <a href="{{ blog_month_link | relative_url }}">{{ month | capitalize }}</a>
         </li>

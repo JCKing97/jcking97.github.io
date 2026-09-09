@@ -1,6 +1,5 @@
 ---
 layout: blog
 title: "Blog"
-year: "2026"
-month: "aug"
+date: "2026-08-01"
 ---

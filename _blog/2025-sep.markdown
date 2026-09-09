@@ -1,5 +1,5 @@
 ---
 layout: blog
 title: "Blog"
-date: "2025-08-01"
+date: "2025-09-01"
 ---
