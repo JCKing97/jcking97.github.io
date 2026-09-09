@@ -1,0 +1,6 @@
+---
+layout: blog
+title: "Blog"
+year: 2026
+month: Aug
+---

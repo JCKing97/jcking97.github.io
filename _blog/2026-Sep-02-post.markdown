@@ -1,7 +1,6 @@
 ---
-layout: blog
-title: "Alliums"
-date: 2026-08-31 15:48:21 +0000
+layout: blog_post
+title: "Other Again"
 ---
 
 Entrance on Alliums
