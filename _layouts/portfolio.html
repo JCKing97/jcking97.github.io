@@ -5,16 +5,16 @@ layout: default
 {% include header.html %}
 
 {% assign previous_in_loop = null %}
-{% assign previous_assigned = false %}
+{% assign previous_unassigned = true %}
 {% assign next_in_loop = false %}
 {% assign assign_next_in_next_iteration = false %}
 {% assign next_unassigned = true %}
 {% assign next = null %}
 {% assign previous = null %}
 {% for portfolio in site.portfolio %}
-  {% if portfolio.url == page.url and not previous_assigned %}
+  {% if portfolio.url == page.url and previous_unassigned %}
     {% assign previous = previous_in_loop %}
-    {% assign previous_assigned = true %}
+    {% assign previous_unassigned = false %}
   {% endif %}
   {% if assign_next_in_next_iteration %}
     {% assign next = portfolio %}
