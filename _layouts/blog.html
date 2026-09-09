@@ -14,7 +14,7 @@ layout: default
     {% for post in blog_archives %}
         {% if year != post.year %}
         {% assign year = post.year %}
-        {% capture blog_year_link %} /blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
+        {% capture blog_year_link %}/blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
         <li class="blog-year">
             <a href="{{ blog_year_link | relative_url }}">{{ year }}</a>
         </li>
@@ -29,7 +29,7 @@ layout: default
     {% for post in blog_archives %}
         {% if month != post.month %}
         {% assign month = post.month %}
-        {% capture blog_month_link %} /blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
+        {% capture blog_month_link %}/blog/{{ post.year }}-{{ post.month | downcase }}/{% endcapture %}
         <li class="blog-month">
             <a href="{{ blog_month_link | relative_url }}">{{ month | capitalize }}</a>
         </li>
