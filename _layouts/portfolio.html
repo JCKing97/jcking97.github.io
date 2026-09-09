@@ -16,4 +16,55 @@ layout: default
 
 </article>
 
+{% assign previous_in_loop = null %}
+{% assign previous_assigned = false %}
+{% assign next_in_loop = false %}
+{% assign assign_next_in_next_iteration = false %}
+{% assign next = null %}
+{% assign previous = null %}
+{% for portfolio in site.portfolio %}
+  {% if portfolio.url == page.url and !previous_assigned %}
+    {% assign previous = previous_in_loop %}
+    {% assign previous_assigned = true % }
+  {% endif %}
+  {% if assign_next_in_next_iteration %}
+    {% assign next = portfolio %}
+    {% assign assign_next_in_next_iteration = false %}
+  {% endif %}
+  {% if portfolio.url == page.url and !next_assigned %}
+    {% assign assign_next_in_next_iteration = true %}
+  {% endif %}
+{% assign previous_in_loop = previous %}
+{% endfor %}
+
+<article class="portfolio">
+  <div class="portfolio-item">
+
+      <div class="item-inner">
+          <div class="portfolio-image">
+              <img src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
+              {% if previous != null %}
+              <a class="portfolio-arrow portfolio-prev" aria-label="Previous" href="{{ previous.url }}">◀</a>
+              {% endif %}
+              {% if next != null %}
+              <a class="portfolio-arrow portfolio-next" aria-label="Next" href="{{ next.url }}">▶</a>
+              {% endif %}
+          </div>
+
+          <div class="portfolio-meta">
+              <a href="{{ page.url }}" class="portfolio-link">
+                  <h2 class="portfolio-title">{{ page.title }}</h2>
+                  <p class="portfolio-excerpt">{{ page.excerpt }}</p>
+              </a>
+          </div>
+      </div>
+
+      <div class="post-item-content">
+        {{ content | remove_first: page.excerpt }}
+      </div>
+
+  </div>
+</article>
+
+
 {% include footer.html %}
