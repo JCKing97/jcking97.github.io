@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #4E6B31;
+    background-color: rgb(78, 107, 49);
     color: #D4D5A5;
     font-family: Georgia, 'Garamond', Times, serif;
 }
@@ -52,7 +52,7 @@ a:hover {
     align-items: center;
     text-align: center;
     background-color: #4E6B31;
-    color: #D4D5A5;
+    color: rgb(212, 213, 165);
     padding: 1rem 0rem 1rem;
     margin: 0;
 }
