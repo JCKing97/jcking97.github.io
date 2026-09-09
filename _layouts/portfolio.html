@@ -20,6 +20,7 @@ layout: default
 {% assign previous_assigned = false %}
 {% assign next_in_loop = false %}
 {% assign assign_next_in_next_iteration = false %}
+{% assign next_unassigned = true %}
 {% assign next = null %}
 {% assign previous = null %}
 {% for portfolio in site.portfolio %}
@@ -31,8 +32,9 @@ layout: default
     {% assign next = portfolio %}
     {% assign assign_next_in_next_iteration = false %}
   {% endif %}
-  {% if portfolio.url == page.url and not next_assigned %}
+  {% if portfolio.url == page.url and next_unassigned %}
     {% assign assign_next_in_next_iteration = true %}
+    {% assign next_unassigned = false %}
   {% endif %}
   {% assign previous_in_loop = previous %}
 {% endfor %}
