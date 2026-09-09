@@ -35,14 +35,12 @@ layout: default
     {% for post in blog_archives sort: "year", "month" %}
         {% assign post_year = post.date | date: "%Y" %}
         {% assign post_month = post.date | date: "%b" %}
-        {% if months contains post_month %}
-        {% else %}
+        {% if not months contains post_month %}
         {% assign months = months | push: post_month %}
         {% capture blog_month_link %}/blog/{{ page_year }}-{{ post_month | downcase }}/{% endcapture %}
         <li class="blog-month">
             <a href="{{ blog_month_link | relative_url }}">{{ post_month | capitalize }}</a>
         </li>
-        {% endif %}
         {% endif %}
     {% endfor %}
     </ul>
