@@ -1,7 +1,7 @@
 {
-  "name": "Your Application Name",
-  "short_name": "App",
-  "description": "Application description",
+  "name": "James King",
+  "short_name": "James King",
+  "description": "James King's wildlife photography and writing.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,19 +9,19 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/assets/images/favicon/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/icon-192.png",
+      "src": "/assets/images/favicon/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/assets/images/favicon/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
