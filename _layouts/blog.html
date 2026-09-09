@@ -9,6 +9,7 @@ layout: default
 
     {% assign year = null %}
     {% assign blog_archives = site.blog | where: "layout", "blog" %}
+
     <div class="blog-years-container">
     <ul class="blog-years">
     {% for post in blog_archives %}
@@ -38,11 +39,10 @@ layout: default
     </ul>
     </div>
 
+    {% assign blog_posts = site.blog | where: "year", page.year | where: "month", page.month %}
+
     <div class="blog-posts">
-    {% capture archive_key %}{{ page.year }}-{{ page.month | downcase }}{% endcapture %}
-    {% for post in site.blog %}
-        {% assign post_name = post.name | downcase %}
-        {% if post.layout == "blog_post" and post_name contains archive_key %}
+    {% for post in blog_posts %}
         <div class="blog-post">
             <a href="{{ post.url }}">
                 <h5>{{ post.title }}</h5>
