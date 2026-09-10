@@ -17,7 +17,7 @@
     padding: 0.3rem;
 }
 
-.portfolio-grid-item:hover {
+.portfolio-grid-item:hover img {
      filter: brightness(50%);
 }
 
