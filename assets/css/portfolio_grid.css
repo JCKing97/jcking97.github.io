@@ -2,15 +2,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 
 .portfolio-grid-item {
-    background-color: rgba(0, 0, 0, 0.1);
     padding: 2px;
     text-align: center;
     box-sizing: border-box;
     flex-basis: 100%;
-    min-width: 0;
+    min-width: 0;     
+}
+
+.portfolio-grid-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 1600px) {
@@ -41,14 +46,5 @@
     width: 100%;
     height: auto;
     display: block;
-}
-
-.portfolio-grid-title {
-    padding: 15px;
-}
-
-.portfolio-grid-excerpt {
-    margin: 0;
-    font-size: 1.2em;
-    color: #333;
+    border-radius: 6px;
 }
