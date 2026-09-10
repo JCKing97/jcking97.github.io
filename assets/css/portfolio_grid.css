@@ -4,18 +4,21 @@
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 6px;
+    padding: 0.2rem;
+    justify-content: space-evenly;
 }
 
 .portfolio-grid-item {
-    padding: 2px;
     text-align: center;
     box-sizing: border-box;
     flex-basis: 100%;
-    min-width: 0;     
+    min-width: 0;
+    border-radius: 6px;
+    padding: 0.3rem;
 }
 
 .portfolio-grid-item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+     filter: brightness(50%);
 }
 
 @media (min-width: 1600px) {
@@ -26,13 +29,13 @@
 
 @media (max-width: 1600px) {
     .portfolio-grid-item {
-        flex-basis: 33.33%;
+        flex-basis: 32%;
     }
 }
 
 @media (max-width: 900px) {
     .portfolio-grid-item {
-        flex-basis: 50%;
+        flex-basis: 49%;
     }
 }
 
@@ -49,11 +52,6 @@
     border-radius: 6px;
 }
 
-.portfolio-grid-title {
-    transform: translateY(-100%);
+.portfolio-grid-content {
+    transform: translateY(-7.5rem);
 }
-
-.portfolio-grid-excerpt {
-    transform: translateY(-100%);
-}
-
