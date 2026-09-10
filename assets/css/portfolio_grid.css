@@ -18,7 +18,15 @@
 }
 
 .portfolio-grid-item:hover img {
-     filter: brightness(50%);
+    filter: brightness(50%);
+}
+
+.portfolio-grid-item .portfolio-grid-content {
+    opacity: 0;
+}
+
+.portfolio-grid-item:hover .portfolio-grid-content {
+    opacity: 1;
 }
 
 @media (min-width: 1600px) {
