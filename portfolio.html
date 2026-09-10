@@ -1,7 +1,19 @@
 ---
-layout: redirect
+layout: page
 title: Portfolio
-sitemap: false
 permalink: /portfolio/
-redirect_to:  /portfolio/01-terns-and-gulls/
 ---
+
+<div class="portfolio-grid">
+  {% for portfolio in site.portfolio %}
+  <div class="portfolio-grid-item">
+    <a href="{{ portfolio.url }}">
+      <img class="portfolio-grid-image" src="/assets/images/portfolio/{{ portfolio.img }}" alt="{{ portfolio.title }}" />
+      <h3 class="portfolio-grid-title">{{ portfolio.title }}</h3>
+      {% assign excerpt_start = portfolio.excerpt | slice: 20 %}
+      <p class="portfolio-grid-excerpt">{{ excerpt_start }}</p>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+

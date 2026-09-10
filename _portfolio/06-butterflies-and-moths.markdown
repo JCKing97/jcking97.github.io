@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Butterflies and Moths"
 img: DSC01722.JPG
 ---

@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Finches"
 img: DSC01259.JPG
 ---

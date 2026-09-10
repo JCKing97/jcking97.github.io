@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Dragonflies and Damselflies"
 img: DSC02013.JPG
 ---

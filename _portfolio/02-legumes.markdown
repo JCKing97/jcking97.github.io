@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Legumes"
 img: DSC00144.JPG
 ---

@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Heathland"
 img: DSC00858.JPG
 ---

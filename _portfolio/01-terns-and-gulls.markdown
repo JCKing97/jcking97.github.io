@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Terns and Gulls"
 img: DSC01592.JPG
 ---

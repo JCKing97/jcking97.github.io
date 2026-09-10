@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: portfolio_post
 title: "Broadleaf Trees"
 img: DSC00754.JPG
 ---
