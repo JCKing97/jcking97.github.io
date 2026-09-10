@@ -9,8 +9,10 @@ permalink: /portfolio/
   <div class="portfolio-grid-item">
     <a href="{{ portfolio.url }}">
       <img class="portfolio-grid-image" src="/assets/images/portfolio/{{ portfolio.img }}" alt="{{ portfolio.title }}" />
-      <h3 class="portfolio-grid-title">{{ portfolio.title }}</h3>
-      <p class="portfolio-grid-excerpt">{{ portfolio.excerpt | slice: 0, 40 }}...</p>
+      <div class="portfolio-grid-content">
+        <h3 class="portfolio-grid-title">{{ portfolio.title }}</h3>
+        <p class="portfolio-grid-excerpt">{{ portfolio.excerpt | slice: 0, 40 }}...</p>
+      </div>
     </a>
   </div>
   {% endfor %}

@@ -48,3 +48,12 @@
     display: block;
     border-radius: 6px;
 }
+
+.portfolio-grid-title {
+    transform: translateY(-100%);
+}
+
+.portfolio-grid-excerpt {
+    transform: translateY(-100%);
+}
+
