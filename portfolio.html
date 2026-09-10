@@ -10,8 +10,8 @@ permalink: /portfolio/
     <a href="{{ portfolio.url }}">
       <img class="portfolio-grid-image" src="/assets/images/portfolio/{{ portfolio.img }}" alt="{{ portfolio.title }}" />
       <h3 class="portfolio-grid-title">{{ portfolio.title }}</h3>
-      {% assign excerpt_start = portfolio.excerpt | slice: 0, 20 %}
-      <p class="portfolio-grid-excerpt">{{ excerpt_start }}</p>
+      {% assign excerpt_start = portfolio.excerpt | slice: 0, 40 %}
+      <p class="portfolio-grid-excerpt">{{ excerpt_start }}...</p>
     </a>
   </div>
   {% endfor %}
