@@ -17,7 +17,13 @@
     padding: 0.3rem;
 }
 
-.portfolio-grid-item:hover img {
+.portfolio-grid-item > a {
+    display: block;
+    position: relative;
+}
+
+.portfolio-grid-item:hover img,
+.portfolio-grid-item:focus img {
     filter: brightness(50%);
 }
 
@@ -25,7 +31,8 @@
     opacity: 0;
 }
 
-.portfolio-grid-item:hover .portfolio-grid-content {
+.portfolio-grid-item:hover .portfolio-grid-content,
+.portfolio-grid-item:focus .portfolio-grid-content {
     opacity: 1;
 }
 
@@ -61,5 +68,8 @@
 }
 
 .portfolio-grid-content {
-    transform: translateY(-7.5rem);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
