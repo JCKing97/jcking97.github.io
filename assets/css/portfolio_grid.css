@@ -13,13 +13,13 @@
     min-width: 0;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1600px) {
     .portfolio-grid-item {
         flex-basis: 25%;
     }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1600px) {
     .portfolio-grid-item {
         flex-basis: 33.33%;
     }
@@ -31,7 +31,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .portfolio-grid-item {
         flex-basis: 100%;
     }
