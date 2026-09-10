@@ -5,17 +5,30 @@
 }
 
 .portfolio-grid-item {
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px;
     text-align: center;
-    width: 100%;
+    flex: 24%;
 }
 
-.portfolio-grid-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+@media (min-width: 1100px) {
+    .portfolio-grid-item {
+        flex: 32%;
+    }
 }
+
+@media (min-width: 900px) {
+    .portfolio-grid-item {
+        flex: 49%;
+    }
+}
+
+@media (min-width: 400px) {
+    .portfolio-grid-item {
+        flex: 100%;
+    }
+}
+
 /* 
 .portfolio-grid-image {
     width: 100%;
