@@ -46,7 +46,7 @@ layout: default
               <audio id="player" loading="metadata">
                 <source src="/assets/audio/{{ page.audio }}" type="{{ page.audio_type }}">
               </audio>
-              <div>
+              <div class="audio-controls">
                   <button id="play" class="audio-btn" onclick="
                     var player = document.getElementById('player');
                     if (player.paused || player.ended) {

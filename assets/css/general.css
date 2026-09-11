@@ -77,6 +77,17 @@ a:hover {
     cursor: pointer;
 }
 
+.audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+#time-track {
+    font-size: 20px;
+}
+
 .audio-btn:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
