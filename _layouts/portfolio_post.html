@@ -61,10 +61,10 @@ layout: default
                   <script type="text/javascript">
                     function updateTimeTrack() {
                       var player = document.getElementById('player');
+                      var currentTimeSeconds = String(Math.floor(player.currentTime % 60)).padStart(2, '0');
                       var currentTimeMinutes = Math.floor(player.currentTime / 60);
-                      var currentTimeSeconds = String(player.currentTime % 60).padStart(2, '0');
+                      var durationSeconds = String(Math.floor(player.duration % 60)).padStart(2, '0');
                       var durationMinutes = Math.floor(player.duration / 60);
-                      var durationSeconds = String(player.duration % 60).padStart(2, '0');
                       var timeTrack = document.getElementById('time-track');
                       timeTrack.textContent = `${currentTimeMinutes}:${currentTimeSeconds} / ${durationMinutes}:${durationSeconds}`;
                     }
