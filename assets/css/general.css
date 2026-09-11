@@ -75,6 +75,9 @@ a:hover {
     font-size: 20px;
     border: none;
     cursor: pointer;
+    height: 36px;
+    line-height: 20px;
+    box-sizing: border-box;
 }
 
 .audio-controls {
@@ -84,8 +87,16 @@ a:hover {
     white-space: nowrap;
 }
 
-#time-track {
+.audio-time-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 8px 12px;
     font-size: 20px;
+    border: none;
+    cursor: pointer;
+    height: 36px;
+    line-height: 20px;
+    box-sizing: border-box;
 }
 
 .audio-btn:hover {
