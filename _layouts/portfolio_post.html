@@ -43,7 +43,7 @@ layout: default
 
           <div class="portfolio-meta">
               {% if page.audio %}
-              <audio id="player" controls loading="lazy">
+              <audio id="player" loading="metadata">
                 <source src="/assets/audio/{{ page.audio }}" type="{{ page.audio_type }}">
               </audio>
               <div>
@@ -66,6 +66,9 @@ layout: default
                       updateTimeTrack();
                     });
                     document.getElementById('player').addEventListener('durationchange', function() {
+                      updateTimeTrack();
+                    });
+                    document.getElementById('player').addEventListener('loadedmetadata', function() {
                       updateTimeTrack();
                     });
                   </script>
