@@ -67,4 +67,16 @@ a:hover {
     color: #CD7F32;
 }
 
+.audio-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: #D4D5A5;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
 
+.audio-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

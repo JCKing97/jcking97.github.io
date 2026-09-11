@@ -47,7 +47,7 @@ layout: default
                 <source src="/assets/audio/{{ page.audio }}" type="{{ page.audio_type }}">
               </audio>
               <div>
-                  <button id="play" onclick="
+                  <button id="play" class="audio-btn" onclick="
                     var player = document.getElementById('player');
                     if (player.paused || player.ended) {
                       player.play();
@@ -55,8 +55,8 @@ layout: default
                       player.pause();
                     }
                     ">▶⏸</button>
-                  <button id="volume-up" onclick="document.getElementById('player').volume += 0.1">🔊</button>
-                  <button id="volume-down" onclick="document.getElementById('player').volume -= 0.1">🔈</button>
+                  <button id="volume-up" class="audio-btn" onclick="document.getElementById('player').volume += 0.1">🔊</button>
+                  <button id="volume-down" class="audio-btn" onclick="document.getElementById('player').volume -= 0.1">🔈</button>
                   <div id="time-track"></div>
                   <script type="text/javascript">
                     function updateTimeTrack() {
