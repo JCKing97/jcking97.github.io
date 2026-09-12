@@ -47,6 +47,7 @@ layout: default
                 <source src="/assets/audio/{{ page.audio }}" type="{{ page.audio_type }}">
               </audio>
               <div class="audio-controls">
+                <div class="audio-control-group">
                   <button id="play" class="audio-btn" onclick="
                     var player = document.getElementById('player');
                     if (player.paused || player.ended) {
@@ -54,9 +55,11 @@ layout: default
                     } else {
                       player.pause();
                     }
-                    ">▶/⏸</button>
+                    ">▶/❚❚</button>
                   <button id="volume-up" class="audio-btn" onclick="document.getElementById('player').volume += 0.1">+</button>
                   <button id="volume-down" class="audio-btn" onclick="document.getElementById('player').volume -= 0.1">-</button>
+                </div>
+                <div class="audio-control-group">
                   <button id="rewind" class="audio-btn" onclick="document.getElementById('player').currentTime -= 10">⏪︎</button>
                   <div class="audio-time-track" id="time-track"></div>
                   <button id="fast-forward" class="audio-btn" onclick="document.getElementById('player').currentTime += 10">⏩︎</button>
@@ -81,6 +84,7 @@ layout: default
                     });
                     updateTimeTrack();
                   </script>
+                </div>
               </div>
               {% endif %}
               <h2 class="portfolio-title">{{ page.title }}</h2>
