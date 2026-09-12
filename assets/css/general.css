@@ -81,6 +81,17 @@ a:hover {
 }
 
 .audio-controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+
+.audio-control-group {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
