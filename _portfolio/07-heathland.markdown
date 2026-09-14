@@ -8,7 +8,7 @@ Heather is the beautiful flowering plant that gives it's name to this rich habit
 
 The vegetation is often managed through the grazing of common land, such as with the ponies of the New Forest, keeping back encroaching woodland and maintaining a diversity of habitats. Ground nesting birds such as the Curlew and Lapwing rely on this to protect their nests during breeding season.<br/><br/>
 
-The spikey gorse bush is also common on the heath and produces edible yellow flowers with a subtle coconut flavour. It is also the favoured perch of the <a src="https://www.inaturalist.org/observations/400279072"><span class="species-name">European Stonechat</span></a>, a gorgeous black, orange and white passerine pictured here at Chailey Common.
+The spikey gorse bush is also common on the heath and produces edible yellow flowers with a subtle coconut flavour. It is also the favoured perch of the <a href="https://www.inaturalist.org/observations/400279072"><span class="species-name">European Stonechat<i class="fa-solid fa-dove" style="color: #CD7F32;" aria-hidden="true"></i></span></a>, a gorgeous black, orange and white passerine pictured here at Chailey Common.
 
 <!--end of excerpt-->
 
