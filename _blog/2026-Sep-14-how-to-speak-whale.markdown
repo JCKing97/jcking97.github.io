@@ -8,7 +8,7 @@ So I am yet to communicate using the long yawns of a whale or the clicks of a do
 
 <!--end of excerpt-->
 
-<img src="{{ assets/images/blog/how-to-speak-whale.jpg | relative_url }}">
+<img src="assets/images/blog/how-to-speak-whale.jpg">
 
 If you've ever read a paper on a review of recent research, you know that these papers can contain an incredible depth and breadth of fascinating information. But even they can be dry. Tom has managed to write a book in that structure with incredible insights, but instead of a dry slog you feel like you're kayaking in Monterey Bay.
 

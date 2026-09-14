@@ -1,5 +1,0 @@
----
-layout: blog
-title: "Blog"
-date: "2025-10-01"
----
