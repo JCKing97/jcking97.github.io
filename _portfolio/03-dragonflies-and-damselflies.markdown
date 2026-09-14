@@ -8,7 +8,7 @@ These predatory flying insects make up the Odonata order, whose fossils first ap
 
 They are extremely agile, catching prey on the wing and are a key health indicator species of their chosen habitat, wetlands.<br/><br/>
 
-There are 57 species of Odonata in the UK and this species, the <span class="species-name">Emperor Dragonfly</span>, was photographed at Broadwater Warren in East Sussex.
+There are 57 species of Odonata in the UK and this species, the <a src="https://www.inaturalist.org/observations/396420381"><span class="species-name">Emperor Dragonfly</span></a>, was photographed at Broadwater Warren in East Sussex.
 
 <!--end of excerpt-->
 

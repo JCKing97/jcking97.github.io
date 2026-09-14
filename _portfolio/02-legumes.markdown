@@ -6,7 +6,7 @@ img: DSC00144.JPG
 
 Legumes are a family of Angiosperms (flowering plants) very well known for their value in agriculture. They produce often delicious fruits such as peas and beans and are famous for their protein content and nitrogen fixing abilities.<br/><br/>
 
-<span class="species-name">Common Vetch</span> (pictured) is known for fixing nitrogen in soils and historically has been used to feed animals and humans. It is a delicate plant with alternate and compound leaves and throws out small tendrils.<br/><br/>
+<a src="https://www.inaturalist.org/observations/400274655"><span class="species-name">Common Vetch</span></a> (pictured) is known for fixing nitrogen in soils and historically has been used to feed animals and humans. It is a delicate plant with alternate and compound leaves and throws out small tendrils.<br/><br/>
 
 In spring/summer the Common Vetch produces beautiful purple flowers. This specimen was photographed at Pagham Harbour in West Sussex and the species likes a variety of habitats including wetland, grassland, farmland, waste ground and roadside verges.
 

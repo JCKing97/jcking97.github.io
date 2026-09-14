@@ -10,7 +10,7 @@ These seabirds make up the Laridae family. Gulls are well know to all (even if t
 
 It is a diverse family including the bird with the longest migration each year the Arctic Tern, the city dwelling Herring Gull and the purely maritime Kittiwake.<br/><br/>
 
-Here a <span class="species-name">Common Tern</span> is pictured at Rye Harbour Nature Reserve. A number of species of tern nest on the shingle of the islands at the reserve including Common, Sandwich and Little Terns.
+Here a <a src="https://www.inaturalist.org/observations/373326285"><span class="species-name">Common Tern</span></a> is pictured at Rye Harbour Nature Reserve. A number of species of tern nest on the shingle of the islands at the reserve including Common, Sandwich and Little Terns.
 
 <!--end of excerpt-->
 
