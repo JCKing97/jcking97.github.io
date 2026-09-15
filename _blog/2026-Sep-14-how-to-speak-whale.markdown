@@ -4,7 +4,7 @@ title: "How to Speak Whale - Tom Mustill"
 date: "2026-09-14"
 ---
 
-So I am yet to communicate using the long yawns of a whale or the clicks of a dolphin, but I have had the world of animal communication illuminated for me. Tom combines his deep personal experience (how many of us have actually had a whale crash on top of us?), his research skills and his personable writing style to bring a topic that can seem so far out to sea right into the centre of our lives.
+So, I am yet to communicate using the long yawns of a whale or the clicks of a dolphin, but I have had the world of animal communication illuminated for me. Tom combines his deep personal experience (how many of us have actually had a whale crash on top of us?), his research skills and his personable writing style to bring a topic that can seem so far out to sea right into the centre of our lives.
 
 <!--end of excerpt-->
 
