@@ -18,7 +18,7 @@ He is best known for his Shardlake series. It brings to life the life and events
 But it was his last book in the series, Tombland, that he took bold steps beyond the bounds of crime-thriller history genre. Here readers lived in the camp of Kett's rebellion. It's slow exploration of daily life in the camp contrasted against the charged intensity of lives upended by the cruelty of those in power and enabled the characters to deepen further even after 7 books of development. It also gave the reader so much time to drink deeply the experience of the people and this is what I'm truly thankful for.<br/><br/>
 
 <div style="text-align: center;">  
-    <img alt="Tombland Book Front Cover" width="30%" src="/assets/images/blog/winter-inmadrid.jpg"/>
+    <img alt="Tombland Book Front Cover" width="30%" src="/assets/images/blog/winter-in-madrid.jpg"/>
 </div>
 
 Beyond the Shardlake series, he wrote and released an alternative Second World War historical fiction, Dominion, and a historical fiction set in the Spanish Civil War, Winter in Madrid. It is the latter that truly captured my attention time and time again. It is less a book about war and more an exploration of how people who experienced this tragic war have been forgotten. It is amazing to me to think that George Orwell and Ernest Hemingway wrote so enigmatically about it and yet it has been almost ignored in popular culture.<br/><br/>
