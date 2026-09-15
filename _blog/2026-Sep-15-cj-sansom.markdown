@@ -2,6 +2,7 @@
 layout: blog_post
 title: "C. J. Sansom"
 date: "2026-09-15"
+img: tombland.jpg 
 ---
 
 I find it hard to summarise the impact of C. J.'s writing on me. For over a decade I explored the world and characters that he infused with life. His writing helped rekindle a love of reading. His weaving of history into a narrative sparked a love of history and his thrilling criminal investigations drew me ever deeper into the characters' lives.<br/><br/>
@@ -9,7 +10,7 @@ I find it hard to summarise the impact of C. J.'s writing on me. For over a deca
 <!--end of excerpt-->
 
 <div style="text-align: center;">  
-    <img alt="Tombland Book Front Cover" width="30%" src="/assets/images/blog/tombland.jpg"/>
+    <img alt="Tombland Book Front Cover" width="30%" src="/assets/images/blog/{{ page.img }}"/>
 </div>
 
 He is best know for his Shardlake series. It brings to life the life and events of Tudor England in a way that made it so relatable and thrilling that I had not come across something like it before. Dissolution went underrated by me for a long time, but it's quiet studied exploration of a Tudor monastery was the right introduction for his understated characters. Revelation bought the thriller side of the series to a peak, diving into a religious madness.<br/><br/>

@@ -2,6 +2,7 @@
 layout: blog_post
 title: "How to Speak Whale - Tom Mustill"
 date: "2026-09-14"
+img: how-to-speak-whale.jpg
 ---
 
 So, I am yet to communicate using the long yawns of a whale or the clicks of a dolphin, but I have had the world of animal communication illuminated for me. Tom combines his deep personal experience (how many of us have actually had a whale crash on top of us?), his research skills and his personable writing style to bring a topic that can seem so far out to sea right into the centre of our lives.
@@ -9,7 +10,7 @@ So, I am yet to communicate using the long yawns of a whale or the clicks of a d
 <!--end of excerpt-->
 
 <div style="text-align: center;">  
-    <img alt="Book Front Cover" width="30%" src="/assets/images/blog/how-to-speak-whale.jpg"/>
+    <img alt="Book Front Cover" width="30%" src="/assets/images/blog/{{ page.img }}"/>
 </div>
 
 If you've ever read a paper on a review of recent research, you know that these papers can contain an incredible depth and breadth of fascinating information. But even they can be dry. Tom has managed to write a book in that structure with incredible insights, but instead of a dry slog you feel like you're kayaking in Monterey Bay.

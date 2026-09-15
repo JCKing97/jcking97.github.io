@@ -56,8 +56,15 @@ layout: default
         {% if post.layout == "blog_post" and post_archive_key == page_archive_key %}
         <div class="blog-post">
             <a href="{{ post.url }}">
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.excerpt }}</p>
+                <div class="blog-post-content">
+                    <div class="blog-post-excerpt">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt }}</p>
+                    </div>
+                    <div class="blog-post-image">
+                        <img src="/assets/images/blog/{{ post.img }}" alt="{{ post.title }}">
+                    </div>
+                </div>
             </a>
         </div>
         {% endif %}
