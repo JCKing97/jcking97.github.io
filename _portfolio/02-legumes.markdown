@@ -8,7 +8,7 @@ Legumes are a family of Angiosperms (flowering plants) very well known for their
 
 <a href="https://www.inaturalist.org/observations/400274655"><span class="species-name">Common Vetch<i class="fa-solid fa-dove" style="color: #CD7F32;" aria-hidden="true"></i></span></a> (pictured) is known for fixing nitrogen in soils and historically has been used to feed animals and humans. It is a delicate plant with alternate and compound leaves and throws out small tendrils.<br/><br/>
 
-In spring/summer the Common Vetch produces beautiful purple flowers. This specimen was photographed at Pagham Harbour in West Sussex and the species likes a variety of habitats including wetland, grassland, farmland, waste ground and roadside verges.
+In spring/summer the Common Vetch produces beautiful purple flowers. This specimen was photographed at Pagham Harbour in West Sussex, and the species likes a variety of habitats including wetland, grassland, farmland, waste ground and roadside verges.
 
 <!--end of excerpt-->
 
