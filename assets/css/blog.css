@@ -51,8 +51,8 @@
     text-decoration: none;
 }
 
-.blog-post a:hover h5,
-.blog-post a:focus h5 {
+.blog-post a:hover h3,
+.blog-post a:focus h3 {
     text-decoration: underline;
 }
 
