@@ -62,7 +62,7 @@ layout: default
               <h2 class="portfolio-title">{{ page.title }}</h2>
               <p class="portfolio-excerpt">
                 {% assign txt_var = page.txt | slice: forloop.index0, 1 %}
-                {{ {{ txt_var }} }}
+                {% include_relative '{{ txt_var }}' %}
               </p>
           </div>
       </div>
