@@ -30,3 +30,11 @@
 .post-excerpt {
     max-width: 100%;
 }
+
+.portfolio-body-image-container {
+    text-align: center;
+}
+
+.portfolio-body-image {
+    width: 30%;
+}

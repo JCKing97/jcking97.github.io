@@ -21,6 +21,15 @@ Pictured is a <a href="https://www.inaturalist.org/observations/400277229"><span
 <img src="/assets/images/portfolio/DSC06203.JPG" alt="?" />
 <img src="/assets/images/portfolio/DSC06393.JPG" alt="?" />
 
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Field Maple" src="/assets/images/portfolio/DSC00020.JPG"/>
+</div>
+
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Alder" src="/assets/images/portfolio/DSC00020.JPG"/>
+</div>
+
+
 
 
 

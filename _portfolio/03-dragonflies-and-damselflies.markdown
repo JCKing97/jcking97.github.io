@@ -12,8 +12,12 @@ There are 57 species of Odonata in the UK and this species, the <a href="https:/
 
 <!--end of excerpt-->
 
-<img src="/assets/images/portfolio/DSC00165.JPG" alt="Dragonfly" />
-<img src="/assets/images/portfolio/DSC00171.JPG" alt="Dragonfly" />
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Hairy Dragonfly" src="/assets/images/portfolio/DSC00165.JPG"/>
+</div>
 
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Hairy Dragonfly" src="/assets/images/portfolio/DSC00171.JPG"/>
+</div>
 
 More on dragonflies and damselflies.

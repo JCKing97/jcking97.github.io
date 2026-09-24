@@ -12,8 +12,16 @@ The spikey gorse bush is also common on the heath and produces edible yellow flo
 
 <!--end of excerpt-->
 
-<img src="/assets/images/portfolio/DSC00324.JPG" alt="Meadow Pipit on Gorse" />
-<img src="/assets/images/portfolio/DSC06124.JPG" alt="Gorse" />
-<img src="/assets/images/portfolio/DSC05960.JPG" alt="Bumble Bee on Heather" />
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Meadow Pipit on Gorse" src="/assets/images/portfolio/DSC00324.JPG"/>
+</div>
+
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Gorse" src="/assets/images/portfolio/DSC06124.JPG"/>
+</div>
+
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Bumble Bee on Heather" src="/assets/images/portfolio/DSC05960.JPG"/>
+</div>
 
 More on stonechats, meadow pipits, ashdown forest etc.

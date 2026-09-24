@@ -14,8 +14,16 @@ Here a <a href="https://www.inaturalist.org/observations/373326285"><span class=
 
 <!--end of excerpt-->
 
-<img src="/assets/images/portfolio/DSC1601.JPG" alt="Feeding Common Tern" />
-<img src="/assets/images/portfolio/DSC1608.JPG" alt="Sandwich Tern" />
-<img src="/assets/images/portfolio/IMG_20260511_082126692.jpg" alt="Gulls in Cities" />
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Feeding Common Tern" src="/assets/images/portfolio/DSC01601.JPG"/>
+</div>
+
+<div class="portfolio-body-image-container>  
+    <img class="portfolio-body-image" alt="Sandwich Tern" src="/assets/images/portfolio/DSC01608.JPG"/>
+</div>
+
+<div class="portfolio-body-image-container">  
+    <img class="portfolio-body-image" alt="Gulls in Cities" src="/assets/images/portfolio/IMG_20260511_082126692.jpg"/>
+</div>
 
 More on terns and gulls.
