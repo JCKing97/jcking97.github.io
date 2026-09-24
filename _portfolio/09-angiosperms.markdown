@@ -1,13 +1,4 @@
 ---
-layout: post
-title: "Angiosperms"
-img: DSC00026.JPG
-order: 8
-categories: portfolio
-date: 2026-08-31 15:48:21 +0000
----
-
----
 layout: portfolio_post
 title: "Angiosperms"
 img: DSC00026.JPG
