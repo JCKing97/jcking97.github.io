@@ -16,6 +16,8 @@ It is a diverse family including the bird with the longest migration each year t
 Here a <a href="https://www.inaturalist.org/observations/373326285"><span class="species-name">Common Tern<i class="fa-solid fa-dove" style="color: #CD7F32;" aria-hidden="true"></i></span></a> is pictured at Rye Harbour Nature Reserve. Several species of tern nest on the shingle of the islands at the reserve including Common, Sandwich and Little Terns.
 {% endcapture %}
 
+<!--end of excerpt-->
+
 {% capture b %}
 {% endcapture %}
 
