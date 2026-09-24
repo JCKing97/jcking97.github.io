@@ -14,4 +14,8 @@ Here a <a href="https://www.inaturalist.org/observations/373326285"><span class=
 
 <!--end of excerpt-->
 
+<img src="/assets/images/portfolio/DSC1601.JPG" alt="Feeding Common Tern" />
+<img src="/assets/images/portfolio/DSC1608.JPG" alt="Sandwich Tern" />
+<img src="/assets/images/portfolio/IMG_20260511_082126692.jpg" alt="Gulls in Cities" />
+
 More on terns and gulls.

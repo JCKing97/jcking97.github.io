@@ -12,4 +12,12 @@ Moths are often considered less charismatic but consider the six-spot burnet or 
 
 <!--end of excerpt-->
 
+<img src="/assets/images/portfolio/DSC00063.JPG" alt="Caterpillar" />
+<img src="/assets/images/portfolio/DSC00094.JPG" alt="Painted Lady" />
+<img src="/assets/images/portfolio/DSC00819.JPG" alt="Moth" />
+<img src="/assets/images/portfolio/DSC01719.JPG" alt="Meadow Brown" />
+<img src="/assets/images/portfolio/DSC01764.JPG" alt="Silver Wash Fritillary" />
+<img src="/assets/images/portfolio/DSC06449.JPG" alt="Orange Tip" />
+<img src="/assets/images/portfolio/DSC06463.JPG" alt="Orange Tip" />
+
 More on butterflies and moths.

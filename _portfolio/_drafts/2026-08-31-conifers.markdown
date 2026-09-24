@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Waders"
-img: 
+title: "Conifers"
+img: DSC05986.JPG
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
@@ -11,4 +11,4 @@ date: 2026-08-31 15:48:21 +0000
 
 <!--end of excerpt-->
 
-More on wading birds.
+More on conifers.

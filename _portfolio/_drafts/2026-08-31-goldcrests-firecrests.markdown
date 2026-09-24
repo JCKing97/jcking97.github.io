@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Waders"
-img: 
+title: "Goldcrests and Firecrests"
+img: DSC04868.JPG
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000

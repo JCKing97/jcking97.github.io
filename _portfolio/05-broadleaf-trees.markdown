@@ -14,4 +14,15 @@ Pictured is a <a href="https://www.inaturalist.org/observations/400277229"><span
 
 <!--end of excerpt-->
 
+<img src="/assets/images/portfolio/DSC00020.JPG" alt="Maple" />
+<img src="/assets/images/portfolio/DSC00566.JPG" alt="Alder" />
+<img src="/assets/images/portfolio/DSC05664.JPG" alt="?" />
+<img src="/assets/images/portfolio/DSC06198.JPG" alt="?" />
+<img src="/assets/images/portfolio/DSC06203.JPG" alt="?" />
+<img src="/assets/images/portfolio/DSC06393.JPG" alt="?" />
+
+
+
+
+
 More on broadleaf trees.

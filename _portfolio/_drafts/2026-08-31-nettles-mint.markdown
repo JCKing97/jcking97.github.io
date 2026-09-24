@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Thrushes"
-img: DSC04946_Edited.JPG DSC05324.JPG
+title: "Nettles and Mint"
+img: DSC06101.JPG
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
@@ -11,4 +11,4 @@ date: 2026-08-31 15:48:21 +0000
 
 <!--end of excerpt-->
 
-More on thrushes.
+More on nettles and mint.

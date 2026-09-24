@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Waders"
-img: 
+img: DSC00073.JPG DSC01673.JPG DSC01697.JPG
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000

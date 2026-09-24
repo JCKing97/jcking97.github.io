@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Thrushes"
-img: DSC04946_Edited.JPG DSC05324.JPG
+title: "Water and Light"
+img: DSC00718.JPG DSC01347.JPG
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
@@ -11,4 +11,4 @@ date: 2026-08-31 15:48:21 +0000
 
 <!--end of excerpt-->
 
-More on thrushes.
+More on water and light.

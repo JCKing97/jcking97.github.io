@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Thrushes"
-img: DSC04946_Edited.JPG DSC05324.JPG
+title: "Cities"
+img: IMG_20260511_082126692.jpg
 order: 8
 categories: portfolio
 date: 2026-08-31 15:48:21 +0000
@@ -11,4 +11,4 @@ date: 2026-08-31 15:48:21 +0000
 
 <!--end of excerpt-->
 
-More on thrushes.
+More on cities.

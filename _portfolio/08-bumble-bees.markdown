@@ -12,4 +12,12 @@ You can see this individual foraging in the flowers for nectar and pollen. They 
 
 <!--end of excerpt-->
 
+<img src="/assets/images/portfolio/DSC00051.JPG" alt="Buff-Tailed" />
+<img src="/assets/images/portfolio/DSC01222.JPG" alt="?" />
+<img src="/assets/images/portfolio/DSC01225.JPG" alt="?" />
+<img src="/assets/images/portfolio/DSC05960.JPG" alt="?" />
+
+
+
+
 More on Bees
