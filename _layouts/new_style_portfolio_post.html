@@ -9,7 +9,7 @@ layout: default
   <div class="portfolio-item">
       
       <div class="item-inner">
-          <div class="portfolio-image">
+          <div class="portfolio-image" id="portfolio-image-{{ forloop.index0 }}">
               <img src="/assets/images/portfolio/{{ img }}" alt="{{ page.title }}" />
           </div>
 
@@ -60,9 +60,9 @@ layout: default
               </div>
               {% endif %}
               <h2 class="portfolio-title">{{ page.title }}</h2>
-              <p class="portfolio-excerpt">
-                {% assign txt_var = page.txt | slice: forloop.index0, 1 %}
-                {% include_relative '{{ txt_var }}' %}
+              <p class="portfolio-excerpt" id="portfolio-excerpt-{{ forloop.index0 }}">
+                {% assign txt_file = page.txt_root | append: page.txt | slice: forloop.index0, 1 %}
+                {% include_relative {{ txt_file }} %}
               </p>
           </div>
       </div>
