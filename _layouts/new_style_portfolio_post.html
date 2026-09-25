@@ -61,8 +61,8 @@ layout: default
               {% endif %}
               <h2 class="portfolio-title">{{ page.title }}</h2>
               <p class="portfolio-excerpt" id="portfolio-excerpt-{{ forloop.index0 }}">
-                {% assign txt_file = page.txt | slice: forloop.index0, 1 %}
-                {% include_relative /{{ page.txt_root }}/{{ txt_file }} %}
+                {% assign txt_file = page.txt_root | append: page.txt | slice: forloop.index0, 1 %}
+                {% include_relative {{ txt_file }} %}
               </p>
           </div>
       </div>

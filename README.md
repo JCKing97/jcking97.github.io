@@ -8,4 +8,3 @@ A portfolio of wildlife photography and writing about the characters in them.
 - Write blog posts
 - Better posting on Social
 - Record portfolio pages and add as listenable entry on portfolio pages
-- Modernise jekyll build and fix build warnings
