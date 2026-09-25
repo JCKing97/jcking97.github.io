@@ -14,7 +14,6 @@ layout: default
           </div>
 
           <div class="portfolio-meta">
-              <h2 class="portfolio-title">{{ page.title }}</h2>
               {% if page.audio %}
               <audio id="player" loading="metadata">
                 <source src="/assets/audio/{{ page.audio }}" type="{{ page.audio_type }}">
@@ -60,6 +59,7 @@ layout: default
                 </div>
               </div>
               {% endif %}
+              <h2 class="portfolio-title">{{ page.title }}</h2>
               <p class="portfolio-excerpt" id="portfolio-excerpt-{{ forloop.index0 }}">
                 {% assign txt_file = page.txt | slice: forloop.index0, 1 %}
                 {% include_relative /{{ page.txt_root }}/{{ txt_file }} %}
