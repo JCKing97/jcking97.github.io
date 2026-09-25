@@ -10,7 +10,7 @@ layout: default
       
       <div class="item-inner">
           <div class="portfolio-image">
-              <img src="/assets/images/portfolio/{{ img }}" alt="{{ page.title }}" />
+              <img src="/assets/images/portfolio/{{ page.img }}" alt="{{ page.title }}" />
           </div>
 
           <div class="portfolio-meta">
@@ -60,10 +60,7 @@ layout: default
               </div>
               {% endif %}
               <h2 class="portfolio-title">{{ page.title }}</h2>
-              <p class="portfolio-excerpt">
-                {% assign txt_var = page.txt | slice: forloop.index0, 1 %}
-                {{ {{ txt_var }} }}
-              </p>
+              <p class="portfolio-excerpt">{{ page.txt[{{ forloop.index0 }}] }}</p>
           </div>
       </div>
 
