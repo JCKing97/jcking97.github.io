@@ -19,6 +19,14 @@
     width: 100%;
 }
 
+.new-portfolio-meta-slide > .new-portfolio-meta {
+    display: none;
+}
+
+.new-portfolio-meta-slide > .new-portfolio-meta.is-active {
+    display: block;
+}
+
 @media (min-width: 900px) {
     .new-portfolio-carousel-container {
         display: grid;

@@ -2,12 +2,18 @@ document.querySelectorAll(".new-portfolio-carousel").forEach((carousel) => {
     const slides = Array.from(carousel.querySelectorAll(".new-portfolio-image-slide"));
     const portfolio = carousel.closest(".new-portfolio");
     const dots = Array.from(portfolio.querySelectorAll(".new-portfolio-dot"));
+    const metadata = Array.from(portfolio.querySelectorAll(".new-portfolio-meta-slide > .new-portfolio-meta"));
     const previousButton = carousel.querySelector(".new-portfolio-prev");
     const nextButton = carousel.querySelector(".new-portfolio-next");
 
     if (slides.length === 0) return;
 
-    let currentIndex = slides.findIndex((slide) => slide.classList.contains("is-active"));
+    const activeMetadataIndex = metadata.findIndex((meta) =>
+        meta.classList.contains("is-active") || meta.querySelector(".is-active")
+    );
+    let currentIndex = activeMetadataIndex >= 0
+        ? activeMetadataIndex
+        : slides.findIndex((slide) => slide.classList.contains("is-active"));
     if (currentIndex < 0) currentIndex = 0;
 
     const showSlide = (index) => {
@@ -16,6 +22,11 @@ document.querySelectorAll(".new-portfolio-carousel").forEach((carousel) => {
             const isActive = slideIndex === currentIndex;
             slide.classList.toggle("is-active", isActive);
             slide.setAttribute("aria-hidden", String(!isActive));
+        });
+        metadata.forEach((meta, metaIndex) => {
+            const isActive = metaIndex === currentIndex;
+            meta.classList.toggle("is-active", isActive);
+            meta.setAttribute("aria-hidden", String(!isActive));
         });
         dots.forEach((dot, dotIndex) => {
             const isActive = dotIndex === currentIndex;

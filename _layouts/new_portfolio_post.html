@@ -19,14 +19,11 @@ layout: default
             {% if page.img.size > 1 %}
             <button class="new-portfolio-control new-portfolio-prev" type="button" aria-label="Previous image">◀</button>
             <button class="new-portfolio-control new-portfolio-next" type="button" aria-label="Next image">▶</button>
-            
             {% endif %}
+
         </div>
         <div class="new-portfolio-meta-slide">
-            <div class="new-portfolio-meta">
-                <h2 class="new-portfolio-title">{{ page.title }}</h2>
-                <p class="new-portfolio-excerpt">{{ content }}</p>
-            </div>
+            {{ content }}
         </div>
     </div>
     <div class="new-portfolio-dots" role="group" aria-label="Choose image">
@@ -38,4 +35,5 @@ layout: default
 
 
 {% include footer.html %}
+
 <script src="/assets/js/new_portfolio_carousel.js" defer></script>
