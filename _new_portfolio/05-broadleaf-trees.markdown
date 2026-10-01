@@ -1,5 +1,5 @@
 ---
-layout: portfolio_post
+layout: new_portfolio_post
 title: "Broadleaf Trees"
 img: ["DSC00754.JPG", "DSC00020.JPG", "DSC00566.JPG", "DSC05664.JPG", "DSC06198.JPG", "DSC06203.JPG", "DSC06393.JPG"]
 ---
