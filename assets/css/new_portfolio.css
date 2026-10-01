@@ -43,13 +43,16 @@
     animation: new-portfolio-fade 0.25s ease;
 }
 
+.new-portfolio-image-slide.is-active img {
+    border-radius: 40px;
+}
+
 .new-portfolio-image img {
     display: block;
     width: 100%;
     max-height: 78vh;
     object-fit: contain;
     margin: 0 auto;
-    border-radius: 4px;
 }
 
 .new-portfolio-control {
