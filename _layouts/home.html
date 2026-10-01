@@ -8,9 +8,15 @@ layout: default
         <div class="home">
             <h1 class="title">James King</h1>
             <div class="links">
+                {% if site.portfolio_style == "old" %}
                 <div class="link">
                     <a href="/portfolio">Portfolio</a>
                 </div>
+                {% else %}
+                <div class="link">
+                    <a href="/new_portfolio">Portfolio</a>
+                </div>
+                {% endif %}
                 <div class="link">
                     <a href="/blog">Blog</a>
                 </div>

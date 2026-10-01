@@ -20,10 +20,12 @@
 
 title: James King
 email: james.king97@zoho.eu
-description: Personal website with career details and blog.
+description: Personal website with portfolio and blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jcking97
+
+portfolio_style: old
 
 # Build settings
 theme: minima
@@ -55,6 +57,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:name/
+  new_portfolio:
+    output: true
+    permalink: /new_portfolio/:name/
   blog:
     output: true
     permalink: /blog/:name/

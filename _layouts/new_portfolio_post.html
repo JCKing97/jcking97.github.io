@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<article class="portfolio">
+  <div class="portfolio-carousel">
+
+      {% for portfolio_img in page.img %}
+      <div class="portfolio-image-slide">
+          <div class="portfolio-image">
+              <img src="/assets/images/portfolio/{{ portfolio_img }}" alt="{{ page.title }}" />
+              <a class="portfolio-arrow portfolio-prev" aria-label="Previous" href="{{ previous.url }}">◀</a>
+              <a class="portfolio-arrow portfolio-next" aria-label="Next" href="{{ next.url }}">▶</a>
+          </div>
+      </div>
+      {% endfor %}
+
+      <div class="portfolio-meta-slide">
+          <div class="portfolio-meta">
+              <h2 class="portfolio-title">{{ page.title }}</h2>
+              <p class="portfolio-excerpt">{{ content }}</p>
+          </div>
+      </div>
+
+  </div>
+</article>
+
+
+{% include footer.html %}
