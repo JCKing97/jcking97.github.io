@@ -17,13 +17,9 @@ layout: default
             {% endfor %}
 
             {% if page.img.size > 1 %}
-            <button class="new-portfolio-control new-portfolio-prev" type="button" aria-label="Previous image">&#8249;</button>
-            <button class="new-portfolio-control new-portfolio-next" type="button" aria-label="Next image">&#8250;</button>
-            <div class="new-portfolio-dots" role="group" aria-label="Choose image">
-                {% for portfolio_img in page.img %}
-                <button class="new-portfolio-dot{% if forloop.first %} is-active{% endif %}" type="button" data-slide-index="{{ forloop.index0 }}" aria-label="Show image {{ forloop.index }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>
-                {% endfor %}
-            </div>
+            <button class="new-portfolio-control new-portfolio-prev" type="button" aria-label="Previous image">◀</button>
+            <button class="new-portfolio-control new-portfolio-next" type="button" aria-label="Next image">▶</button>
+            
             {% endif %}
         </div>
         <div class="new-portfolio-meta-slide">
@@ -32,6 +28,11 @@ layout: default
                 <p class="new-portfolio-excerpt">{{ content }}</p>
             </div>
         </div>
+    </div>
+    <div class="new-portfolio-dots" role="group" aria-label="Choose image">
+        {% for portfolio_img in page.img %}
+        <button class="new-portfolio-dot{% if forloop.first %} is-active{% endif %}" type="button" data-slide-index="{{ forloop.index0 }}" aria-label="Show image {{ forloop.index }}" aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+        {% endfor %}
     </div>
 </article>
 
