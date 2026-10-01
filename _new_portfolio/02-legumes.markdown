@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Legumes"
 img: ["DSC00144.JPG"]
+intro: Legumes are a family of Angiosperms (flowering plants)...
 ---
 
 <div class="new-portfolio-meta">

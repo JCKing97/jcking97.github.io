@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Dragonflies and Damselflies"
 img: ["DSC02013.JPG", "DSC00165.JPG", "DSC00171.JPG"]
+intro: These predatory flying insects make up the Odonata order,...
 ---
 
 <div class="new-portfolio-meta">

@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Finches"
 img: ["DSC01259.JPG"]
+intro: Finches are a family of passerines (perching birds) made up...
 ---
 
 <div class="new-portfolio-meta">

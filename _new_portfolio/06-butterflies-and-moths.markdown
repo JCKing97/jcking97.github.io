@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Butterflies and Moths"
 img: ["DSC01722.JPG", "DSC00094.JPG", "DSC00819.JPG", "DSC01719.JPG", "DSC01764.JPG", "DSC06449.JPG", "DSC06463.JPG"]
+intro: Lepidoptera is an order containing winged insects including butterflies and moths...
 ---
 
 <div class="new-portfolio-meta">

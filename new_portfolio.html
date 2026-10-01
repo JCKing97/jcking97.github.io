@@ -11,7 +11,7 @@ permalink: /new_portfolio/
       <img class="portfolio-grid-image" src="/assets/images/portfolio/{{ portfolio.img[0] }}" alt="{{ portfolio.title }}" />
       <div class="portfolio-grid-content">
         <h3 class="portfolio-grid-title">{{ portfolio.title }}</h3>
-        <p class="portfolio-grid-excerpt">{{ portfolio.excerpt | slice: 0, 40 }}...</p>
+        <p class="portfolio-grid-excerpt">{{ portfolio.intro | slice: 0, 40 }}...</p>
       </div>
     </a>
   </div>

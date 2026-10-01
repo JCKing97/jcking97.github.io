@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Terns and Gulls"
 img: ["DSC01592.JPG", "DSC01601.JPG", "DSC01608.JPG"]
+intro: These seabirds make up the Laridae family...
 ---
 
 <div class="new-portfolio-meta">

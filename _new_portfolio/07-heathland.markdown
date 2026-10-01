@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Heathland"
 img: ["DSC00858.JPG", "DSC00324.JPG", "DSC06124.JPG", "DSC05960.JPG"]
+intro: Heather is the beautiful flowering plant that gives its name to this rich habitat...
 ---
 
 <div class="new-portfolio-meta">

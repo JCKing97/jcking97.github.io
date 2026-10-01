@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Angiosperms"
 img: ["DSC00026.JPG", "DSC00051.JPG", "DSC00144.JPG", "DSC00649.JPG", "DSC01238.JPG", "DSC06010.JPG", "DSC06018.JPG", "DSC06023.JPG", "DSC06111.JPG", "DSC06124.JPG", "DSC06203.JPG"]
+intro: The flowering plants evolved from the earlier mosses, ferns and conifers... 
 ---
 
 <div class="new-portfolio-meta">

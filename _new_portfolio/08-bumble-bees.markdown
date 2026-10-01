@@ -2,6 +2,7 @@
 layout: new_portfolio_post
 title: "Bumble Bees"
 img: ["DSC01222.JPG", "DSC00051.JPG", "DSC01222.JPG", "DSC01225.JPG", "DSC05960.JPG"]
+intro: When you think of pollinators, what animal comes to mind first? For most people it's bees...
 ---
 
 
