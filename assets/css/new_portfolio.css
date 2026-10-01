@@ -1,64 +1,103 @@
-.new-portfolio {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
+* {box-sizing:border-box}
 
 .new-portfolio-carousel-container {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
+    align-items: stretch;
 }
 
 .new-portfolio-carousel {
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 0.5rem;
-}
-
-.new-portfolio-image-slide {
-    flex: 0 0 95%;
-    box-sizing: border-box;
-    background: rgba(0,0,0,0.05);
-    padding: 1rem;
-    border-radius: 6px;
-}
-
-.new-portfolio-image-slide img {
-    max-width: 100%;
-    max-height: calc(100vh - 2rem);
-    width: auto;
-    height: auto;
-    display: block;
-    margin-inline: auto;
-    border-radius: 4px;
-}
-
-.new-portfolio-image {
     width: 100%;
 }
 
 .new-portfolio-meta-slide {
-    flex: 0 0 95%;
-    box-sizing: border-box;
-    background: rgba(0,0,0,0.05);
-    padding: 1rem;
-    border-radius: 6px;
-}
-
-.new-portfolio-meta {
     width: 100%;
 }
 
-.new-portfolio-meta-title {
-    margin: 0.5rem 0 0.25rem 0;
-    font-size: 1.25rem;
+@media (min-width: 900px) {
+    .new-portfolio-carousel-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .new-portfolio-carousel {
+        flex: 0 0 65%;
+        margin-right: 1rem;
+    }
+    .new-portfolio-meta-slide {
+        flex: 1 1 35%;
+    }
 }
 
-.new-portfolio-meta-excerpt {
-    margin: 0;
+@media (min-width: 900px) {
+    .new-portfolio-carousel-container {
+        flex: 0 0 100%;
+    }
+}
+
+
+/* Slideshow container */
+.new-portfolio-carousel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.new-portfolio-image-slide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.portfolio-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.portfolio-prev:hover, .portfolio-next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.new-portfolio-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .new-portfolio-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.slide {
+  animation-name: slide;
+  animation-duration: 1.5s;
+}
+
+@keyframes slide {
+  from {opacity: .4}
+  to {opacity: 1}
 }

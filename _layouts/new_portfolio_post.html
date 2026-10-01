@@ -5,16 +5,24 @@ layout: default
 {% include header.html %}
 
 <article class="new-portfolio">
-    <div class="new-portfolio-carousel-container"></div>
+    <div class="new-portfolio-carousel-container">
         <div class="new-portfolio-carousel">
 
             {% for portfolio_img in page.img %}
-            <div class="new-portfolio-image-slide">
+            <div class="new-portfolio-image-slide slide">
                 <div class="new-portfolio-image">
                     <img src="/assets/images/portfolio/{{ portfolio_img }}" alt="{{ page.title }}" />
                     <a class="portfolio-arrow portfolio-prev" aria-label="Previous" href="{{ previous.url }}">◀</a>
                     <a class="portfolio-arrow portfolio-next" aria-label="Next" href="{{ next.url }}">▶</a>
                 </div>
+            </div>
+            {% endfor %}
+            <br />
+            {% for portfolio_img in page.img %}
+            <div style="text-align:center">
+                <span class="new-portfolio-dot" onclick="currentSlide({{ forloop.index }})"></span>
+                <span class="new-portfolio-dot" onclick="currentSlide({{ forloop.index }})"></span>
+                <span class="new-portfolio-dot" onclick="currentSlide({{ forloop.index }})"></span>
             </div>
             {% endfor %}
         </div>
