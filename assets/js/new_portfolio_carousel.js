@@ -1,6 +1,7 @@
 document.querySelectorAll(".new-portfolio-carousel").forEach((carousel) => {
     const slides = Array.from(carousel.querySelectorAll(".new-portfolio-image-slide"));
-    const dots = Array.from(carousel.querySelectorAll(".new-portfolio-dot"));
+    const portfolio = carousel.closest(".new-portfolio");
+    const dots = Array.from(portfolio.querySelectorAll(".new-portfolio-dot"));
     const previousButton = carousel.querySelector(".new-portfolio-prev");
     const nextButton = carousel.querySelector(".new-portfolio-next");
 
