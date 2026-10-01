@@ -6,7 +6,6 @@
 .new-portfolio-carousel-container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     padding: 1rem;
 }
 
@@ -23,14 +22,15 @@
 
 @media (min-width: 900px) {
     .new-portfolio-carousel-container {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: minmax(0, 65fr) minmax(0, 35fr);
         align-items: center;
     }
     .new-portfolio-carousel {
-        flex: 0 0 65%;
+        min-width: 0;
     }
     .new-portfolio-meta-slide {
-        flex: 1 1 35%;
+        min-width: 0;
     }
 }
 
@@ -44,14 +44,14 @@
 }
 
 .new-portfolio-image-slide.is-active img {
-    border-radius: 40px;
+    border-radius: 6px;
 }
 
 .new-portfolio-image img {
     display: block;
-    width: 100%;
-    max-height: 78vh;
-    object-fit: contain;
+    width: auto;
+    height: auto;
+    max-width: 100%;
     margin: 0 auto;
 }
 
