@@ -4,9 +4,15 @@
             <h3 class="title"><a href="/index">James King</a></h3>
         </div>
         <div class="links">
+            {% if site.portfolio_style == "old" %}
             <div class="link">
                 <a {% if page.url contains "portfolio" %}class="active"{% endif %} href="/portfolio">Portfolio</a>
             </div>
+            {% else %}
+            <div class="link">
+                <a {% if page.url contains "new_portfolio" %}class="active"{% endif %} href="/new_portfolio">Portfolio</a>
+            </div>
+            {% endif %}
             <div class="link">
                 <a {% if page.url contains "blog" %}class="active"{% endif %} href="/blog">Blog</a>
             </div>
