@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
 title: "Legumes"
-img: DSC00144.JPG
+img: ["DSC00144.JPG"]
 ---
 
 <div class="new-portfolio-meta">

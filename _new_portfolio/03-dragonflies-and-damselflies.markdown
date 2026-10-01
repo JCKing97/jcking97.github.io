@@ -17,14 +17,14 @@ img: ["DSC02013.JPG", "DSC00165.JPG", "DSC00171.JPG"]
 
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt is-active">
+    <p class="new-portfolio-excerpt">
         Hairy Dragonfly.
     </p>
 </div>
 
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt is-active">
+    <p class="new-portfolio-excerpt">
         Hairy Dragonfly.
     </p>
 </div>
