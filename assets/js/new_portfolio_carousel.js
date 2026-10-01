@@ -1,5 +1,6 @@
 document.querySelectorAll(".new-portfolio-carousel").forEach((carousel) => {
     const slides = Array.from(carousel.querySelectorAll(".new-portfolio-image-slide"));
+    const track = carousel.querySelector(".new-portfolio-image-track");
     const portfolio = carousel.closest(".new-portfolio");
     const dots = Array.from(portfolio.querySelectorAll(".new-portfolio-dot"));
     const metadata = Array.from(portfolio.querySelectorAll(".new-portfolio-meta-slide > .new-portfolio-meta"));
@@ -18,6 +19,7 @@ document.querySelectorAll(".new-portfolio-carousel").forEach((carousel) => {
 
     const showSlide = (index) => {
         currentIndex = (index + slides.length) % slides.length;
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
         slides.forEach((slide, slideIndex) => {
             const isActive = slideIndex === currentIndex;
             slide.classList.toggle("is-active", isActive);

@@ -8,6 +8,7 @@ layout: default
     <div class="new-portfolio-carousel-container">
         <div class="new-portfolio-carousel" role="region" aria-roledescription="carousel" aria-label="{{ page.title }} images" tabindex="0">
 
+            <div class="new-portfolio-image-track">
             {% for portfolio_img in page.img %}
             <div class="new-portfolio-image-slide{% if forloop.first %} is-active{% endif %}">
                 <div class="new-portfolio-image">
@@ -15,6 +16,7 @@ layout: default
                 </div>
             </div>
             {% endfor %}
+            </div>
 
             {% if page.img.size > 1 %}
             <button class="new-portfolio-control new-portfolio-prev" type="button" aria-label="Previous image">◀</button>
