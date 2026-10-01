@@ -28,7 +28,7 @@
     width: 100%;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(1rem);
+    transform: translateY(-5rem);
     transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
 }
 
@@ -37,6 +37,14 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+}
+
+.new-portfolio-meta-slide > .new-portfolio-meta.is-leaving {
+    position: absolute;
+    inset: 0 0 auto;
+    opacity: 0;
+    visibility: visible;
+    transform: translateY(5rem);
 }
 
 @media (min-width: 900px) {
