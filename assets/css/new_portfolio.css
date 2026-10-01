@@ -1,4 +1,4 @@
-* {box-sizing:border-box}
+.new-portfolio, .new-portfolio * {box-sizing:border-box}
 
 .new-portfolio-carousel-container {
     display: flex;
@@ -9,6 +9,9 @@
 
 .new-portfolio-carousel {
     width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .new-portfolio-meta-slide {
@@ -22,82 +25,80 @@
     }
     .new-portfolio-carousel {
         flex: 0 0 65%;
-        margin-right: 1rem;
     }
     .new-portfolio-meta-slide {
         flex: 1 1 35%;
     }
 }
 
-@media (min-width: 900px) {
-    .new-portfolio-carousel-container {
-        flex: 0 0 100%;
-    }
-}
-
-
-/* Slideshow container */
-.new-portfolio-carousel {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
 .new-portfolio-image-slide {
-  display: none;
+    display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.new-portfolio-image-slide.is-active {
+    display: block;
+    animation: new-portfolio-fade 0.25s ease;
 }
 
-/* Position the "next button" to the right */
-.portfolio-next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.new-portfolio-image img {
+    display: block;
+    width: 100%;
+    max-height: 78vh;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.portfolio-prev:hover, .portfolio-next:hover {
-  background-color: rgba(0,0,0,0.8);
+.new-portfolio-control {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 0.25rem 0.7rem;
+    background: rgba(0, 0, 0, 0.58);
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.2;
+    cursor: pointer;
 }
 
-/* The dots/bullets/indicators */
+.new-portfolio-control:hover,
+.new-portfolio-control:focus-visible {
+    background: rgba(0, 0, 0, 0.82);
+}
+
+.new-portfolio-prev {
+    left: 0.5rem;
+}
+
+.new-portfolio-next {
+    right: 0.5rem;
+}
+
+.new-portfolio-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.75rem 0;
+}
+
 .new-portfolio-dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #a8a8a8;
+    cursor: pointer;
 }
 
-.active, .new-portfolio-dot:hover {
-  background-color: #717171;
+.new-portfolio-dot.is-active,
+.new-portfolio-dot:hover,
+.new-portfolio-dot:focus-visible {
+    background: #333;
 }
 
-/* Fading animation */
-.slide {
-  animation-name: slide;
-  animation-duration: 1.5s;
-}
-
-@keyframes slide {
-  from {opacity: .4}
-  to {opacity: 1}
+@keyframes new-portfolio-fade {
+    from { opacity: 0.65; }
+    to { opacity: 1; }
 }
