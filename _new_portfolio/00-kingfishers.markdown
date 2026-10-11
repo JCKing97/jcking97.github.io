@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
 title: "Kingfishers"
-img: ["DSC02311.jpg", "DSC02256.jpg", "DSC02300.jpg"]
+img: ["DSC02311.jpg", "DSC02256.jpg"]
 intro: Bolts of blue along the river bank...
 ---
 
@@ -16,12 +16,5 @@ intro: Bolts of blue along the river bank...
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
         Another Kingfisher, female this time, also at Warnham. You can tell from the red on the lower part of her beak.
-    </p>
-</div>
-
-<div class="new-portfolio-meta">
-    <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt">
-        The same male Kingfisher again. Trying to find the right perch to see into the water to hunt.
     </p>
 </div>
