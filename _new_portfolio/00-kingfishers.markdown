@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
 title: "Kingfishers"
-img: ["DSC02311.JPG", "DSC02256.JPG", "DSC02300.JPG"]
+img: ["DSC02311.jpg", "DSC02256.jpg", "DSC02300.jpg"]
 intro: Bolts of blue along the river bank...
 ---
 
