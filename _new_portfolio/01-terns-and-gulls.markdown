@@ -19,13 +19,21 @@ intro: These seabirds make up the Laridae family...
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
-        Common Tern bringing fish to the nest.
+        Common Terns nest on the ground to breed in the UK over summer. Some prefer inland waterways, including ponds, lakes and rivers on gravel whilst others, including these pictured here at Rye Harbour, prefer estuarine and coastal shingle.<br/><br/>
+
+        Their adaptability makes them less susceptible to the habitat loss that has so degraded numbers of Little and Arctic Terns. But, numbers of Common Terns are still declining. Efforts to protect the species include building artificial raft-based nesting sites and selectively culling of chick predating Gulls which were both successful in improving survival rates.<br/><br/>
+
+        A Tern community is extremely impressive. They are incredibly loud and doggedly mob predators as a group. They also take turns fishing for sprats, whiting and sandeels for their nest-sitting mate, such as in this image which makes up the bulk of their diet. Although they are known to eat crustaceans, worms and insects as well.
     </p>
 </div>
 
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
-        A sandwich tern.
+        Some Tern species can be hard to tell apart. The Arctic and Common Terns have black hats on, red feet and a red beak. You can just about tell by the whiter wings and longer tail of the Arctic species, but at a glance it's difficult.<br/><br/>
+        
+        The Roseatte Tern is uncommon but also looks similar with a slight pinkish breast. Little Terns are a bit easier to tell apart with a yellow bill and white patches in its black cap.<br/><br/>
+
+        But the Sandwich Tern (pictured here) is very distinctive. Although it maintains the sleek and sharp physique of the Terns, it is the emo of the Tern world. Its bill, feet and cap are all black and it can spike up the feathers around the back of the cap particularly when courting.
     </p>
 </div>
