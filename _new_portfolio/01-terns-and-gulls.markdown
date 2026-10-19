@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
 title: "Terns and Gulls"
-img: ["DSC01592.JPG", "DSC01601.JPG", "DSC01608.JPG"]
+img: ["DSC01592.JPG", "DSC01601.JPG", "DSC01644.JPG"]
 intro: These seabirds make up the Laridae family...
 ---
 
@@ -34,6 +34,6 @@ intro: These seabirds make up the Laridae family...
         
         The Roseatte Tern is uncommon but also looks similar with a slight pinkish breast. Little Terns are a bit easier to tell apart with a yellow bill and white patches in its black cap.<br/><br/>
 
-        But the Sandwich Tern (pictured here) is very distinctive. Although it maintains the sleek and sharp physique of the Terns, it is the emo of the Tern world. Its bill, feet and cap are all black and it can spike up the feathers around the back of the cap particularly when courting.
+        But the <a href="https://www.inaturalist.org/observations/409445684"><span class="species-name">Sandwich Tern<i class="fa-solid fa-dove" style="color: #CD7F32;" aria-hidden="true"></i></span></a> (pictured here) is very distinctive. Although it maintains the sleek and sharp physique of the Terns, it is the emo of the Tern world. Its bill, feet and cap are all black and it can spike up the feathers around the back of the cap particularly when courting.
     </p>
 </div>
