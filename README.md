@@ -5,7 +5,6 @@ A portfolio of wildlife photography and writing about the characters in them.
 ## TODO
 
 S
-- Write up Gorse (legumes)
 - Use better photos in beetles portfolio post
 - Write up Beetles
 - Centre the lackey
