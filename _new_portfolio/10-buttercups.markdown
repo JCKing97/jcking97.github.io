@@ -1,0 +1,20 @@
+---
+layout: new_portfolio_post
+title: "The Buttercup Family"
+img: [ "DSC06010.JPG", "DSC06023.JPG"]
+intro: The flowering plants evolved from the earlier mosses, ferns and conifers... 
+---
+
+<div class="new-portfolio-meta">
+    <h2 class="new-portfolio-title">{{ page.title }}</h2>
+    <p class="new-portfolio-excerpt">
+        Wood Anemone.
+    </p>
+</div>
+
+<div class="new-portfolio-meta">
+    <h2 class="new-portfolio-title">{{ page.title }}</h2>
+    <p class="new-portfolio-excerpt">
+        Lesser Celandine.
+    </p>
+</div>

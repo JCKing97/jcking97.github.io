@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
 title: "Legumes"
-img: ["DSC00144.JPG"]
+img: ["DSC00144.JPG", "DSC06124.JPG"]
 intro: Legumes are a family of Angiosperms (flowering plants)...
 ---
 
@@ -15,3 +15,12 @@ intro: Legumes are a family of Angiosperms (flowering plants)...
         In spring/summer the Common Vetch produces beautiful purple flowers. This specimen was photographed at Pagham Harbour in West Sussex, and the species likes a variety of habitats including wetland, grassland, farmland, waste ground and roadside verges.
     </p>
 </div>
+
+
+<div class="new-portfolio-meta">
+    <h2 class="new-portfolio-title">{{ page.title }}</h2>
+    <p class="new-portfolio-excerpt">
+        Gorse.
+    </p>
+</div>
+

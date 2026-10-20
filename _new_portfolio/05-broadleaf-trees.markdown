@@ -49,7 +49,7 @@ intro: Is there a more transformative group of life than trees?...
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
-        ?
+        Hawthorns.
     </p>
 </div>
 
