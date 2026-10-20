@@ -9,3 +9,5 @@ A portfolio of wildlife photography and writing about the characters in them.
 - Better posting on Social
 - Record portfolio pages and add as listenable entry on portfolio pages
 - Include videos as portfolio media 
+- Use better photos in beetles portfolio post
+- 

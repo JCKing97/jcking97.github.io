@@ -1,7 +1,7 @@
 ---
 layout: new_portfolio_post
-title: "Butterflies and Moths"
-img: ["DSC01722.JPG", "DSC00063.JPG", "DSC00094.JPG", "DSC00819.JPG", "DSC01719.JPG", "DSC01764.JPG", "DSC06449.JPG", "DSC06463.JPG"]
+title: "Butterflies"
+img: ["DSC01722.JPG", "DSC00094.JPG", "DSC01719.JPG", "DSC01764.JPG", "DSC06463.JPG"]
 intro: Lepidoptera is an order containing winged insects including butterflies and moths...
 ---
 
@@ -19,21 +19,7 @@ intro: Lepidoptera is an order containing winged insects including butterflies a
 <div class="new-portfolio-meta">
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
-        Lackey Caterpillar.
-    </p>
-</div>
-
-<div class="new-portfolio-meta">
-    <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt">
         Painted Lady.
-    </p>
-</div>
-
-<div class="new-portfolio-meta">
-    <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt">
-        Moth.
     </p>
 </div>
 
@@ -48,13 +34,6 @@ intro: Lepidoptera is an order containing winged insects including butterflies a
     <h2 class="new-portfolio-title">{{ page.title }}</h2>
     <p class="new-portfolio-excerpt">
         Silver Wash Fritillary.
-    </p>
-</div>
-
-<div class="new-portfolio-meta">
-    <h2 class="new-portfolio-title">{{ page.title }}</h2>
-    <p class="new-portfolio-excerpt">
-        Orange Tip.
     </p>
 </div>
 
