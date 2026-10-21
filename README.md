@@ -43,6 +43,7 @@ M
 - Kingsbridge blog post
 - Matt Haig blog post
 - Eat the planet well blog post
+- Randomise photo selected for portfolio entry
 
 L
 - Include videos as portfolio media 
