@@ -5,9 +5,7 @@ A portfolio of wildlife photography and writing about the characters in them.
 ## TODO
 
 S
-- Use better photos in beetles portfolio post
 - Write up Beetles
-- Centre the lackey
 - Write up meadow pipit on gorse
 - Write up Bumble Bee on Heather
 - Write up buttercups
@@ -16,6 +14,7 @@ S
 - Write up bluebell
 - Write up chives
 - Write up cuckoo flowers
+- Add six spot burnett to moths
 
 M
 - Add more to heathland
