@@ -15,6 +15,7 @@ S
 - Write up chives
 - Write up cuckoo flowers
 - Add six spot burnett to moths
+- Improve Linnet photo
 
 M
 - Add more to heathland
