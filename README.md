@@ -28,8 +28,6 @@ M
 - Plan social posting
 - Write up moths
 - Paginate portfolio
-- Remove old portfolio logic
-- Remove unused css and tidy up
 - Write up Bumble bees
 - Write up angiosperms
 - Add more asters/daisies
