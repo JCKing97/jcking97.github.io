@@ -5,7 +5,6 @@ A portfolio of wildlife photography and writing about the characters in them.
 ## TODO
 
 S
-- Write up Beetles
 - Write up meadow pipit on gorse
 - Write up Bumble Bee on Heather
 - Write up buttercups
