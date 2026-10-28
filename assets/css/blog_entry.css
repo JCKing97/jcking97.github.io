@@ -1,4 +1,4 @@
-.post { 
+.blog-post { 
     margin: 0.5rem;
     flex: 0 0 95%;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
     border-radius: 6px;
 }
 
-.post-title {
+.blog-post-title {
     text-align: center;
     font-size: 30px;
 }
