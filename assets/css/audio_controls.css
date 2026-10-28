@@ -1,0 +1,45 @@
+.audio-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: #D4D5A5;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    height: 36px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.audio-controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.audio-control-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.audio-time-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: none;
+    height: 36px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.audio-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
