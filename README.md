@@ -17,14 +17,13 @@ S
 - Improve Linnet photo
 
 M
+- Write up butterflies
 - Add more to heathland
 - Add some damselflies
 - Add some gulls
 - Add some finches
 - Exercised blog post
 - The modern middle east blog post
-- Write up butterflies
-- Write up Broadleaf Trees
 - Plan social posting
 - Write up moths
 - Paginate portfolio
@@ -57,3 +56,4 @@ L
 - Add garden birds
 - Add nuthatches and woodpeckers
 - Add nettles/mint
+- iNat blog post
